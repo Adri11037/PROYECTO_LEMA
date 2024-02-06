@@ -584,52 +584,52 @@
         <OBJETOS_MAGICOS>
             <OBJETO tipo="accesorio">
                 <NOMBRE>Anillo de Solaria</NOMBRE>
-                <IMG></IMG>
+                <IMG>img/Anillo_de_Solaria.webp</IMG>
                 <DESCRIPCION>El Anillo de Solaria es un anillo mágico que pertenece a Stella. Se
                     puede convertir en un cetro que Stella suele utilizar para ayudar a lanzar
                     hechizos, o teletransportarse a sí misma y a otras personas a un lugar
                     determinado. De acuerdo con Stella, el anillo es de 6,1 magia pura.</DESCRIPCION>
-                <PRECIO>img/Anillo_de_Solaria.webp</PRECIO>
+                <PRECIO>10€</PRECIO>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Codex</NOMBRE>
-                <IMG></IMG>
+                <IMG>img/Codex.webp</IMG>
                 <DESCRIPCION>Para abrir el portal al reino de Realix, las cuatro piezas del Codex
                     deben ser reunidas y un hechizo tiene que ser utilizado. El equilibrio entre la
                     Luz y la Oscuridad se deben respetar para abrir el portal y para obtener el
                     poder definitivo del Reino de Realix, tiene que tener la Llama del dragón y el
                     poder del fénix. Lord Darkar secuestró a Bloom y la convierte en su versión
                     oscura con el propósito de entrar a Realix uniendo las piezas del codex.</DESCRIPCION>
-                <PRECIO>img/Codex.webp</PRECIO>
+                <PRECIO>2,50€</PRECIO>
             </OBJETO>
             <OBJETO tipo="accesorio">
                 <NOMBRE>Máscara de Daphne</NOMBRE>
-                <IMG></IMG>
+                <IMG>img/Máscara_de_Daphne.jpg</IMG>
                 <DESCRIPCION>La Máscara de Daphne es un objeto mágico especial de Daphne. Ella la
                     uso cuando no poseía su forma física. Al parecer, gracias a ella, se mantiene en
                     su posición sin ningún apego, posiblemente por arte de magia.</DESCRIPCION>
-                <PRECIO>img/Máscara_de_Daphne.jpg</PRECIO>
+                <PRECIO>15,99€</PRECIO>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Círculo Negro</NOMBRE>
-                <IMG></IMG>
+                <IMG>img/Círculo_Negro.webp</IMG>
                 <DESCRIPCION>El Círculo Negro es un objeto mágico creado por los Hechiceros del
                     Círculo Negro, como una manera de luchar contra el poder de las hadas.</DESCRIPCION>
-                <PRECIO>img/Círculo_Negro.webp</PRECIO>
+                <PRECIO>5,87€</PRECIO>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Círculo Blanco</NOMBRE>
-                <IMG></IMG>
+                <IMG>img/Circulo_Blanco.webp</IMG>
                 <DESCRIPCION>Se trata de un anillo mágico de color blanco que actúa como un portal
                     al reino de Tir Nan Og, donde las hadas de la Tierra fueron encarceladas.</DESCRIPCION>
-                <PRECIO>img/Circulo_Blanco.webp</PRECIO>
+                <PRECIO>5,87€</PRECIO>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Cajas Sirenix</NOMBRE>
                 <IMG>img/Cajas_Sirenix.webp</IMG>
                 <DESCRIPCION>Se trata de varias cajas que cada una de las Winx ganan a lo largo de
                     la temporada en su búsqueda para ganar el poder Sirenix.</DESCRIPCION>
-                <PRECIO>img/Cajas_Sirenix.webp</PRECIO>
+                <PRECIO>12€</PRECIO>
             </OBJETO>
             <OBJETO tipo="accesorio">
                 <NOMBRE>Gema de Coral</NOMBRE>
@@ -637,22 +637,22 @@
                 <DESCRIPCION>Es una joya montada en el bastón de la Reina Ligea. Tiene el poder de
                     otorgar hechizos de curación siempre que pueda capturar los últimos rayos del
                     crepúsculo.</DESCRIPCION>
-                <PRECIO></PRECIO>
+                <PRECIO>11,50€</PRECIO>
             </OBJETO>
             <OBJETO tipo="accesorio">
                 <NOMBRE>Bastón de Nabu</NOMBRE>
-                <IMG></IMG>
+                <IMG>img/Bastón_de_Nabu.jpg</IMG>
                 <DESCRIPCION>Es una larga vara de oro con una joya púrpura en la parte superior. Él
                     lo utiliza para ayudarse a sí mismo para lanzar hechizos, pero también lo puede
                     utilizar para fines de combate.</DESCRIPCION>
-                <PRECIO></PRECIO>
+                <PRECIO>5,70€</PRECIO>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Cofre Agador</NOMBRE>
-                <IMG></IMG>
+                <IMG>img/Cofre_Agador.webp</IMG>
                 <DESCRIPCION>Es una caja mágica que tiene el poder de contener cualquier hechizo o
                     forma de magia colocada en ella.</DESCRIPCION>
-                <PRECIO>img/Bastón_de_Nabu.jpg</PRECIO>
+                <PRECIO>9,99€</PRECIO>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Estrellas de agua</NOMBRE>
@@ -666,7 +666,7 @@
                     poderosos magos antiguos se reunieron a fin de reunirlos y les sellada. Las
                     Estrellas de agua se han mantenido en el Reino de Oro desde entonces, donde
                     fueron custodiados por Arcadia, siendo una hada en existencia.</DESCRIPCION>
-                <PRECIO></PRECIO>
+                <PRECIO>15,98€</PRECIO>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Libro Sirenix</NOMBRE>
@@ -674,7 +674,7 @@
                 <DESCRIPCION>El libro se encontraba oculto entre los muchos otros libros del archivo
                     magico de la biblioteca de Alfea. Daphne lo utilizo hace tiempo para obtener el
                     Sirenix y luego le dijo a las Winx donde encontrarlo.</DESCRIPCION>
-                <PRECIO></PRECIO>
+                <PRECIO>20€</PRECIO>
             </OBJETO>
         </OBJETOS_MAGICOS>
     </PRODUCTOS>
@@ -688,7 +688,7 @@
                 Un hada generalmente es primero capaz de transformarse cuando ella gana suficiente
                 fuerza de voluntad y cree plenamente en su magia y habilidades</DESCRIPCION>
             <IMG>img/Magic_Winx.webp</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>6,89€</PRECIO>
         </ROPA>
         <ROPA>
             <NOMBRE>Charmix</NOMBRE>
@@ -700,7 +700,7 @@
                 Sin embargo, puede quedarse sin energía y el hada o éstas resulten más débiles o no
                 puede utilizar ningún tipo de magia</DESCRIPCION>
             <IMG>img/Charmix.webp</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>5€</PRECIO>
         </ROPA>
         <ROPA>
             <NOMBRE>Enchantix</NOMBRE>
@@ -713,7 +713,7 @@
                 Enchantix obtenido de esta forma es incompleto y el hada no puede usar sus poderes
                 de miniaturización por lo que puede perder fácilmente el control.</DESCRIPCION>
             <IMG>img/Enchantix.webp</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>10,98€</PRECIO>
         </ROPA>
         <ROPA>
             <NOMBRE>Believix</NOMBRE>
@@ -729,7 +729,7 @@
                 Se gana por un hada cuando convence a alguien que no cree en la magia para empezar a
                 creer en él</DESCRIPCION>
             <IMG>img/Believix.jpg</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>12€</PRECIO>
         </ROPA>
         <ROPA>
             <NOMBRE>Shopix</NOMBRE>
@@ -738,7 +738,7 @@
                 sub-transformación de Believix y se utiliza cuando las Winx tuvieron que hacer
                 frente a Diana, el hada mayor de la Naturaleza.</DESCRIPCION>
             <IMG>img/Shopix.webp</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>12€</PRECIO>
         </ROPA>
         <ROPA>
             <NOMBRE>Lovix</NOMBRE>
@@ -747,7 +747,7 @@
                 sub-transformación de Believix y se utiliza cuando las Winx tratan de detener a
                 Aurora, la Mayor de hada del polo Norte</DESCRIPCION>
             <IMG>img/Lovix.webp</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>12€</PRECIO>
         </ROPA>
         <ROPA>
             <NOMBRE>Harmonix</NOMBRE>
@@ -755,7 +755,7 @@
                 hadas. Se administra a las Winx para ayudarlas en su búsqueda del Sirenix, así como
                 mejorar sus competencias y son capaces de usarlos bajo el agua</DESCRIPCION>
             <IMG>img/Harmonix.webp</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>15€</PRECIO>
         </ROPA>
         <ROPA>
             <NOMBRE>Sirenix</NOMBRE>
@@ -765,7 +765,7 @@
                 inmunes con el agua. Las Trix también han ganado un semejante poder llamado Sirenix
                 Oscuro.</DESCRIPCION>
             <IMG>img/Sirenix.webp</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>15,90€</PRECIO>
         </ROPA>
         <ROPA>
             <NOMBRE>Bloomix</NOMBRE>
@@ -774,7 +774,7 @@
                 transformación. Ayuda a la lucha contra las criaturas invocadas desde el Legendarium
                 durante su búsqueda de encontrar a Eldora para cerrar el Legendarium.</DESCRIPCION>
             <IMG>img/Bloomix.webp</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>11€</PRECIO>
         </ROPA>
         <ROPA>
             <NOMBRE>Mythix</NOMBRE>
@@ -784,7 +784,7 @@
                 habilita el Bloomix significando que el Mythix solamente funciona para luchar en el
                 Mundo del Legendarium.</DESCRIPCION>
             <IMG>img/Mythix.webp</IMG>
-            <PRECIO></PRECIO>
+            <PRECIO>10,77€</PRECIO>
         </ROPA>
     </VESTUARIOS>
 
