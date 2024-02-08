@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COLECCION SYSTEM "winx.dtd">
 <COLECCION>
     <INTRODUCCION>En esta pagina descubriras tanto infromacion acerca de la famosa serie "Winx Club"
         como articulos que podras comprar de esta</INTRODUCCION>
@@ -400,7 +401,7 @@
                     carnívoro y zarcillos blancos como bigotes en su mandíbula inferior. Se parece
                     un poco a un dragón chino y al gran dragón. La serpiente de hielo es el guardián
                     principal y la esencia de la Dimensión Omega</CARACTERISTICAS>
-                <TIPO inclinacion="neutra">Salvaje</TIPO>
+                <TIPO inclinacion="neutral">Salvaje</TIPO>
                 <IMG>img/Serpiente_de_hielo.webp</IMG>
             </ANIMAL>
             <ANIMAL>
@@ -476,7 +477,7 @@
                     creación de tormentas de nieve o el uso de las ventiscas de crear picos de hielo
                     con el fin de atacar. Al decir que es una criatura magica tuvo semejanzas a una
                     morsa mutado como un gorila.</CARACTERISTICAS>
-                <TIPO inclinacion="neutra">Salvaje</TIPO>
+                <TIPO inclinacion="neutral">Salvaje</TIPO>
                 <IMG>img/Yeti.webp</IMG>
             </ANIMAL>
         </ANIMALES_MAGICOS>
@@ -788,7 +789,7 @@
         </ROPA>
     </VESTUARIOS>
 
-    <CONTACTO>
+   <!-- <CONTACTO>
         <NOMBRE></NOMBRE>
         <GMAIL></GMAIL>
         <ENCUESTA>
@@ -799,5 +800,5 @@
             <PREGUNTA num="5"></PREGUNTA>
         </ENCUESTA>
         <COMENTARIOS></COMENTARIOS>
-    </CONTACTO>
+    </CONTACTO> -->
 </COLECCION>
