@@ -49,7 +49,7 @@
     </DESCRIPCION_SERIE>
     <LOGO></LOGO>
     <IVA>21</IVA>
-    <TEMPORADAS>
+        <TEMPORADAS>
         <TEMPORADA>
             <NOMBRE>1ªTemporada</NOMBRE>
             <TRAMA>Bloom, una chica normal del planeta Tierra, vive una vida perfectamente normal en
@@ -70,7 +70,9 @@
                 se embarcará en esta aventura y empezará a aprender los secretos de su verdadero
                 planeta de procedencia, su familia y sus poderes.</TRAMA>
             <VILLANOS>Las Trix</VILLANOS>
-            <TRANSFORMACIONES>Magic Winx</TRANSFORMACIONES>
+            <TRANSFORMACIONES>
+                <TRANSFORMACION_PRINCIPAL>Magic Winx</TRANSFORMACION_PRINCIPAL>
+            </TRANSFORMACIONES>
             <IMAGEN>img/temporada1.webp</IMAGEN>
             <DVD>Contiene 26 capitulos</DVD>
             <PRECIO>19,00€</PRECIO>
@@ -93,7 +95,9 @@
                 a si misma y a todos sus amigos y derrotan a Lord Darkar con una convergencia.
                 Después de la batalla, Bloom y los demás vuelven a Alfea y celebran.</TRAMA>
             <VILLANOS>Lord Darkard y las trix</VILLANOS>
-            <TRANSFORMACIONES>Charmix</TRANSFORMACIONES>
+            <TRANSFORMACIONES>
+                <TRANSFORMACION_PRINCIPAL>Charmix</TRANSFORMACION_PRINCIPAL>
+            </TRANSFORMACIONES>
             <IMAGEN>img/temporada2.webp</IMAGEN>
             <DVD>Contiene 26 capitulos</DVD>
             <PRECIO>19,00€</PRECIO>
@@ -116,7 +120,9 @@
                 Bloom conoce más detalles sobre Domino, como así también acerca del paradero de
                 Oritel y Marion, sus padres biológicos.</TRAMA>
             <VILLANOS>Valtor y Las Trix</VILLANOS>
-            <TRANSFORMACIONES>Enchantix</TRANSFORMACIONES>
+            <TRANSFORMACIONES>
+                <TRANSFORMACION_PRINCIPAL>Enchantix</TRANSFORMACION_PRINCIPAL>
+            </TRANSFORMACIONES>
             <IMAGEN>img/temporada3.jpg</IMAGEN>
             <DVD>Contiene 26 capitulos y una pelicula: "Winx Club: El Secreto del Reino Perdido"</DVD>
             <PRECIO>22,00€</PRECIO>
@@ -202,7 +208,6 @@
             <PRECIO>19,00€</PRECIO>
         </TEMPORADA>
     </TEMPORADAS>
-
     <CRIATURAS>
         <PIXIES>
             <QUE_SON>Las Pixies son criaturas mágicas que viven en la Dimensión Mágica, son "hadas
@@ -788,17 +793,4 @@
             <PRECIO>10,77€</PRECIO>
         </ROPA>
     </VESTUARIOS>
-
-   <!-- <CONTACTO>
-        <NOMBRE></NOMBRE>
-        <GMAIL></GMAIL>
-        <ENCUESTA>
-            <PREGUNTA num="1"></PREGUNTA>
-            <PREGUNTA num="2"></PREGUNTA>
-            <PREGUNTA num="3"></PREGUNTA>
-            <PREGUNTA num="4"></PREGUNTA>
-            <PREGUNTA num="5"></PREGUNTA>
-        </ENCUESTA>
-        <COMENTARIOS></COMENTARIOS>
-    </CONTACTO> -->
 </COLECCION>
