@@ -487,7 +487,7 @@
                 <CARTA id="w001">
                     <NOMBRE>Bloom</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada del fuego del dragón y Princesa de Dominó</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
+                    <IMG>img/BloomCartajpg.jpg</IMG>
                     <PRECIO>5,99€</PRECIO>
                 </CARTA>
                 <CARTA id="w002">
@@ -499,7 +499,7 @@
                 <CARTA id="w003">
                     <NOMBRE>Flora</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada de la Naturaleza</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
+                    <IMG>img/FloraCartajpg.jpg</IMG>
                     <PRECIO>5,99€</PRECIO>
                 </CARTA>
                 <CARTA id="w004">
@@ -511,13 +511,13 @@
                 <CARTA id="w005">
                     <NOMBRE>Tecna</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada de la Tecnología</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
+                    <IMG>img/TecnaCartajpg.jpg</IMG>
                     <PRECIO>5,99€</PRECIO>
                 </CARTA>
                 <CARTA id="w006">
                     <NOMBRE>Laila</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada de los Líquidos y Princesa de Andros</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
+                    <IMG>img/LailaCartajpg.jpg</IMG>
                     <PRECIO>5,99€</PRECIO>
                 </CARTA>
             </WINXS>
