@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COLECCION SYSTEM "winx.dtd">
+<COLECCION>
+    <INTRODUCCION>En esta pagina descubriras tanto infromacion acerca de la famosa serie "Winx Club"
+        como articulos que podras comprar de esta</INTRODUCCION>
+    <DESCRIPCION_SERIE>
+        Las Hadas son criaturas mágicas que viven en la Dimensión Mágica. A lo largo
+        de la serie, se han visto muchos tipos de hadas. Estos incluyen las hadas normales, al igual
+        que las chicas Winx Alfea y otros estudiantes, así como otros seres mágicos como Arcadia,
+        las hadas etéreas, y las hadas rústicas. Todas las hadas son en su mayoría humanoides en
+        apariencia, con las hadas normales buscan exactamente igual que los humanos, pero con las
+        alas cuando se transforma, mientras Arcadia y las hadas etéreas tienen unas características
+        menos humanos y se parecen más a los seres puramente mágicos.
+        
+        La mayoría de las hadas se saben que han utilizado sus poderes para buenos propósitos y
+        proteger la dimensión mágica de las fuerzas del mal, y han colaborado con otros seres
+        mágicos como duendes, brujas y magos para luchar contra el mal, un ejemplo es la Compañía de
+        Luz. Sin embargo, algunas de las hadas se sabe que se han aliado con las fuerzas del mal
+        para sus propios motivos egoístas. Otras Hadas, mientras que en realidad no cambian al lado
+        oscuro o aliarse con las fuerzas del mal, sin embargo han estado en el lado malo y hecho
+        cosas malas
+        
+        ----------------------------------------------------------------------------------------------
+        Las Brujas (o Hechiceras) son criaturas mágicas de la Dimensión Mágica y son el polo opuesto
+        de las hadas. Las brujas y los magos son similares en apariencia a los seres humanos y las
+        hadas. Sin embargo, la fuente de sus poderes mágicos es proveniente a sus sentimientos
+        negativos y de la oscuridad, mientras que las Hadas deriva a sus buenos sentimientos y de la
+        luz.
+        
+        Para ello las brujas casualmente visten ropas oscuras, góticos, punks entre otros tipos de
+        vestimentas. Aunque varias chicas tienen atuendos similares a las hadas pero con ciertos
+        cambios.
+        
+        Incluso si algunas brujas han utilizado sus poderes para fines malignos, la mayoría de las
+        brujas no son necesariamente malos, como se ha mencionado varias veces en la serie, siendo
+        ejemplo Griffin quien ayudó a la Compañía de Luz para combatir contra lasBrujas Ancestrales
+        (como un esfuerzo por haber inicialmente trabajado con las antepasadas y Valtor, aunque fue
+        mencionada por Valtor que Griffin y Faragonda ya eran amigas cuando Griffin seguía con las
+        antepasadas cuando dice que dejó las antepasadas a lado con su "gran amigo"), Faragonda (que
+        era una bruja, pero más tarde se convirtió en un hada), Mirta, Lucy y muchas otras brujas de
+        Torre Nubosa ayudaron a las hadas
+        
+        ----------------------------------------------------------------------------------------------
+        Las Hadas, brujas y seres humanos constituyen la parte principal de la sociedad de la
+        dimensión mágica, la proporción de cada variable a través de los reinos, con otros seres
+        mágicos como los elfos, ogros, Hechiceros y otros seres mágicos también están presentes en
+        algunos ámbitos, y parece que las hadas suelen ser los principales miembros de las
+        sociedades de la mayoría de los reinos de la Dimensión Mágica.
+    </DESCRIPCION_SERIE>
+    <LOGO>images/logo.png</LOGO>
+    <IVA>21</IVA>
+    <TEMPORADAS>
+        <TEMPORADA>
+            <NOMBRE>1ªTemporada</NOMBRE>
+            <TRAMA>Bloom, una chica normal del planeta Tierra, vive una vida perfectamente normal en
+                la ciudad de Gardenia, hasta que conoce a Stella, un hada y princesa del planeta
+                Solaria, la cual está metida en problemas. Al ir a ayudar a Stella, Bloom descubre
+                sus poderes mágicos. Stella convence a Bloom de que se dirija a Alfea, la escuela
+                para hadas considerada como la mejor de toda la dimensión mágica.
+                
+                En Alfea, Bloom crea el Winx Club, cuyas miembros son sus cuatro amigas y compañeras
+                de habitación: Stella, Flora, Musa y Tecna. Más tarde, se encontrarán con los
+                Especialistas de Fuente Roja, concretamente con Brandon, Riven, Timmy y
+                Sky, quienes se convertirán en sus amigos e intereses amorosos. Las miembros del
+                Winx Club también se involucrarán con un trío de brujas (hechiceras) de Torre de
+                Nubes: Icy, Darcy y Stormy, a las que se referirán como las Trix.
+                
+                Las Trix van en busca del poder de la Llama del dragón y su persecución despiadada
+                hace que tengan varios encuentros y luchas con el Winx Club. De esta manera, Bloom
+                se embarcará en esta aventura y empezará a aprender los secretos de su verdadero
+                planeta de procedencia, su familia y sus poderes.</TRAMA>
+            <VILLANOS>Las Trix</VILLANOS>
+            <TRANSFORMACIONES>
+                <TRANSFORMACION_PRINCIPAL>Magic Winx</TRANSFORMACION_PRINCIPAL>
+            </TRANSFORMACIONES>
+            <IMAGEN>img/temporada1.webp</IMAGEN>
+            <DVD>Contiene 26 capitulos</DVD>
+            <PRECIO>19,00€</PRECIO>
+        </TEMPORADA>
+        <TEMPORADA>
+            <NOMBRE>2ªTemporada</NOMBRE>
+            <TRAMA>Después de sus vacaciones de verano, el Club Winx regresa a Alfea para comenzar
+                su segundo año. Se reúnen con una nueva hada, Laila, que pide su ayuda para rescatar
+                a sus amigas Pixies tomadas como rehenes por Lord Darkar. Lord Darkar es en realidad
+                el "Fénix de Sombras", un ser oscuro que quiere tener el control sobre toda la
+                Dimensión Mágica. Con el fin de conseguirlo, tiene que averiguar dónde está la Aldea
+                Pixie con el proposito de robar las cuatro piezas del Codex que abren el portal al
+                reino de Realix, donde se puede encontrar el máximo poder. Las Trix se unen a Lord
+                Darkar y actuan bajo su servicio. Mientras tanto, las Winx aprenden a realizar
+                convergencia mágica, como asi tambien sobre el Charmix y como obtenerlo. Un nuevo
+                "maestro" llega a Alfea y convierte a Bloom en Dark Bloom para que ella coopere con
+                Lord Darkar. Con la ayuda de Dark Bloom, Lord Darkar abre el portal hacia el reino
+                de Realix. Cuando todo parece perdido, en el último momento, Sky confiesa sus
+                verdaderos sentimientos hacia Bloom, regresandola a su estado normal. Bloom se cura
+                a si misma y a todos sus amigos y derrotan a Lord Darkar con una convergencia.
+                Después de la batalla, Bloom y los demás vuelven a Alfea y celebran.</TRAMA>
+            <VILLANOS>Lord Darkard y las trix</VILLANOS>
+            <TRANSFORMACIONES>
+                <TRANSFORMACION_PRINCIPAL>Charmix</TRANSFORMACION_PRINCIPAL>
+            </TRANSFORMACIONES>
+            <IMAGEN>img/temporada2.webp</IMAGEN>
+            <DVD>Contiene 26 capitulos</DVD>
+            <PRECIO>19,00€</PRECIO>
+        </TEMPORADA>
+        <TEMPORADA>
+            <NOMBRE>3ªTemporada</NOMBRE>
+            <TRAMA>Las Winx empiezan su tercer año en Alfea y las chicas aprenden sobre una
+                transformacion única, el Enchantix. Este nivel se consigue tras sacrificarse por
+                alguien de su propio mundo. Mientras tanto, las Trix, que habían desaparecido y
+                habían ido a la Dimensión Omega, escapan con Valtor, un hechicero en parte
+                responsable por la destrucción de Domino, el reino de Bloom. Se deciden a cooperar y
+                planean invadir varias zonas en el reino de Magix en busca de venganza sobre
+                aquellos que los encarcelaron al robar los tesoros mágicos y las fuentes de poder de
+                cada reino. Con sus nuevos poderes Enchantix Laila, Flora, Stella, Tecna y Musa son
+                capaces de utilizar fuertes e increíbles hechizos magicos, también pueden
+                miniaturizarse a si mismas. Bloom, por otra parte, al no haber nadie de su mundo a
+                quien pudiera salvar, va a Pyros, la isla de los dragones, donde aprende a enfocar
+                su energía y de esa forma obtiene la forma Enchantix, aun así Bloom no puede
+                miniaturizarse porque que su Enchantix está incompleto. Al final de la temporada,
+                Bloom conoce más detalles sobre Domino, como así también acerca del paradero de
+                Oritel y Marion, sus padres biológicos.</TRAMA>
+            <VILLANOS>Valtor y Las Trix</VILLANOS>
+            <TRANSFORMACIONES>
+                <TRANSFORMACION_PRINCIPAL>Enchantix</TRANSFORMACION_PRINCIPAL>
+            </TRANSFORMACIONES>
+            <IMAGEN>img/temporada3.jpg</IMAGEN>
+            <DVD>Contiene 26 capitulos y una pelicula: "Winx Club: El Secreto del Reino Perdido"</DVD>
+            <PRECIO>22,00€</PRECIO>
+        </TEMPORADA>
+        <TEMPORADA>
+            <NOMBRE>4ªTemporada</NOMBRE>
+            <TRAMA>Despues de vencer a los enemigos mas fuertes como las Trix y Valtor, las Winx
+                vuelven a Alfea como heroinas, admiradas por toda la Dimensión Mágica, pero esta vez
+                como maestras, donde aprenderán sobre el Believix, una transformación nueva que
+                garantizará la destreza para hacer que alguien crea en la magia. Además, el Believix
+                también otorga tres pares de alas adicionales para que la forma sea más potente:
+                Velocidix (mejora de velocidad), Zoomix (teletransporte) y Tracix (ayuda visual).
+                También conocerán a los Hechiceros del Círculo Negro, un grupo de villanos que van
+                tras la última hada de la Tierra para conseguir el poder completo. Después, las Winx
+                viajan a la Tierra para localizar y proteger la última hada. Con la ayuda de
+                Vanessa, abren una tienda de animales llamada Amor y Mascotas, que también servirá
+                como su hogar, y se hacen amigas de Roxy, una chica que trabaja en el Bar Músico
+                Frutal. Cuando se revela que Roxy es la última hada de la Tierra, las Winx ayudan a
+                defender a Roxy de los hechiceros. Mientras tanto, Roxy descubre sus poderes y
+                consigue su Believix, de forma que puede ayudar a las Winx a vencer a los
+                Hechiceros. El grupo del Círculo Negro, derrotados, empiezan a prestar atención al
+                Círculo Blanco, un anillo mágico que puede liberar a las hadas de la Tierra que
+                están atrapadas en Tir Nan Og. Al final, las Winx liberan a las hadas atrapadas y
+                frustra los planes de los malvados hechiceros una vez más. Sin embargo, ahora tienen
+                que enfrentarse a las hadas de la venganza que buscan destruir a los hechiceros por
+                aprisionarlas y a los humanos por dejar de creer en la magia. Al verse enfrentadas a
+                tan poderosa fuerza, las Winx se ven obligadas a realizar conciliaciones pero para
+                eso deberan superar dificiles misiones.</TRAMA>
+            <VILLANOS>Los magos del circulo negro</VILLANOS>
+            <TRANSFORMACIONES>
+                <TRANSFORMACION_PRINCIPAL>Believix</TRANSFORMACION_PRINCIPAL>
+                <SUB-TRANSFORMACIONES>
+                    <TRANSFORMACION>Lovix</TRANSFORMACION>
+                    <TRANSFORMACION>Sophix</TRANSFORMACION>
+                </SUB-TRANSFORMACIONES>
+            </TRANSFORMACIONES>
+            <IMAGEN>img/temporada4.jpg</IMAGEN>
+            <DVD>Contiene 26 capitulos y una pelicula: "Winx Club 3D: La Aventura Mágica"</DVD>
+            <PRECIO>22,00€</PRECIO>
+        </TEMPORADA>
+        <TEMPORADA>
+            <NOMBRE>5ªTemporada</NOMBRE>
+            <TRAMA>Bajo el agua, las Winx tendrán que enfrentarse a un nuevo villano terrible,
+                Tritannus. Él era un tritón normal, que se transformó en un monstruo poderoso
+                causado por la contaminación. Su principal objetivo es gobernar todo el mundo!
+                
+                El poder Believix no es lo suficientemente fuerte bajo el agua, por lo tanto, las
+                Winx iniciaran una búsqueda difícil para obtener el antiguo poder Sirenix y
+                convertirse en Hadas-Sirenas.
+                
+                Maravillosas criaturas marinas ayudarán a las hadas en esta "Misión Imposible".
+                ¿Lograrán las Winx salvar la Dimensión Mágica? ¿Evitarán que Tritannus se convierta
+                en el malvado Emperador del Océano Infinito?</TRAMA>
+            <VILLANOS>Tritanus</VILLANOS>
+            <TRANSFORMACIONES>
+                <TRANSFORMACION_INICIAL>Harmonix</TRANSFORMACION_INICIAL>
+                <TRANSFORMACION_FINAL>Sirenix</TRANSFORMACION_FINAL>
+            </TRANSFORMACIONES>
+            <IMAGEN>img/temporada5.webp</IMAGEN>
+            <DVD>Contiene 26 capitulos</DVD>
+            <PRECIO>19,00€</PRECIO>
+        </TEMPORADA>
+        <TEMPORADA>
+            <NOMBRE>6ªTemporada</NOMBRE>
+            <TRAMA>Selina, una bruja de la Tierra, se une a Torre Nubosa. Ella tiene un libro
+                llamado Legendarium que le permite hacer las leyendas realidad. La Trix aparecen y
+                conquistan Torre Nubosa haciéndola levitar, tambien hacen un trato con Selina, en el
+                cual ella les ayudará a conquistar las escuelas mágicas con su libro malvado, a
+                cambio de que las Trix le enseñen sus hechizos. Las Winx van a confrontar a las Trix
+                y a Selina pero al atacar a esta última, todas excepto Bloom pierden sus poderes.
+                Después en Alfea, Bloom les da a las Winx, una parte de la Llama del dragón, con la
+                cual recuperan su fuerza y a la vez les dará nuevas transformaciones, el Bloomix y
+                el Mythix.</TRAMA>
+            <VILLANOS>Acheron</VILLANOS>
+            <TRANSFORMACIONES>
+                <TRANSFORMACION_PRINCIPAL>Bloomix</TRANSFORMACION_PRINCIPAL>
+                <SUB-TRANSFORMACIONES>
+                    <TRANSFORMACION>Mythix</TRANSFORMACION>
+                </SUB-TRANSFORMACIONES>
+            </TRANSFORMACIONES>
+            <IMAGEN>temporada5.webp</IMAGEN>
+            <DVD>Contiene 26 capitulos</DVD>
+            <PRECIO>19,00€</PRECIO>
+        </TEMPORADA>
+    </TEMPORADAS>
+    <CRIATURAS>
+        <PIXIES>
+            <QUE_SON>Las Pixies son criaturas mágicas que viven en la Dimensión Mágica, son "hadas
+                pequeñas" que están para ayudar de alguna forma a las Hadas</QUE_SON>
+            <PIXIES_GUARDIANAS>
+                <PIXIE>
+                    <NOMBRE>Concorda</NOMBRE>
+                    <GUARDIANA>Es el hada guardiana de la pieza del codex escondida en el archivo
+                        magico de Alfea</GUARDIANA>
+                    <IMG>img/concorda.webp</IMG>
+                </PIXIE>
+                <PIXIE>
+                    <NOMBRE>Atena</NOMBRE>
+                    <GUARDIANA>Es el hada guardiana de la pieza del codex escondida en la Cripta del
+                        Codex en Fuente Roja</GUARDIANA>
+                    <IMG>img/atena.webp</IMG>
+                </PIXIE>
+                <PIXIE>
+                    <NOMBRE>Discorda</NOMBRE>
+                    <GUARDIANA>Es el hada guardiana de la pieza del codex escondida en un torreon de
+                        Torre de Nubes</GUARDIANA>
+                    <IMG>img/atena.webp</IMG>
+                </PIXIE>
+                <PIXIE>
+                    <NOMBRE>Ninfea</NOMBRE>
+                    <GUARDIANA>Es el hada guardiana de la pieza del codex escondida la cual esta
+                        escondida en su baston</GUARDIANA>
+                    <IMG>img/ninfea.webp</IMG>
+                </PIXIE>
+            </PIXIES_GUARDIANAS>
+            <PIXIE>
+                <NOMBRE>Lockette</NOMBRE>
+                <HABILIDADES>Es la Pixie de los portales, ella usa su bastón mágico para encontrar
+                    el camino.</HABILIDADES>
+                <IMG>img/Lockette.jpg</IMG>
+            </PIXIE>
+            <PIXIE>
+                <NOMBRE>Amore</NOMBRE>
+                <HABILIDADES>Es la Pixie del amor, est autiliza un bolsito con polvos magicos
+                    capaces de enomorara cualquiera</HABILIDADES>
+                <IMG>img/Amore.jpg</IMG>
+            </PIXIE>
+            <PIXIE>
+                <NOMBRE>Tune</NOMBRE>
+                <HABILIDADES>Es l aPixie de la buena educacion, </HABILIDADES>
+                <IMG>img/Tune.webp</IMG>
+            </PIXIE>
+            <PIXIE>
+                <NOMBRE>Chatta</NOMBRE>
+                <HABILIDADES>Es la Pixie de la charla</HABILIDADES>
+                <IMG>img/Chatta.jpg</IMG>
+            </PIXIE>
+            <PIXIE>
+                <NOMBRE>Digit</NOMBRE>
+                <HABILIDADES>Es la Pixie de la Nanotecnologia y es capaz de entrar a cualquier
+                    ordenador</HABILIDADES>
+                <IMG>img/Digit.webp</IMG>
+            </PIXIE>
+            <PIXIE>
+                <NOMBRE>Piff</NOMBRE>
+                <HABILIDADES>Es la pixie del Sueño y casi siempre la encontraras durmiendo</HABILIDADES>
+                <IMG>img/Piff.jpg</IMG>
+            </PIXIE>
+        </PIXIES>
+        <SELKIES>
+            <DESCRIPCION>Los Guardianes de la Puerta son las Selkies que custodian las puertas que
+                conectan el Mar de Andros a los océanos de todos los mundos y reinos de toda la
+                Dimensión Mágica . Se les conoce como los duendes bajo el agua. Ellos tienen la
+                capacidad de abrir o cerrar los portales que enlazan el Océano de Andros a los
+                océanos de otro mundo o planeta , y hay un guardián de cada mundo con los símbolos
+                especiales en sus frentes.
+                
+                Los Selkies Guardianes tienen rol en vigilar las Columnas del Océano Infinito que
+                son tres y entre ellas estan la Columna de Luz, Equilibrio y Control. Utilizan armas
+                de oro y no tienen símbolos en sus frentes. Junto con los porteros (selkies que
+                tienen capacidad de abrir las puertas del océano) y selkies guardianes (selkies que
+                custodian las columnas del Océano Infinito) , hay mas selkies normales con poder
+                desconocido. Ellos son vistos usando armas como las selkies guardianes y los
+                símbolos en sus frentes son como los que están en frente tritones.
+                
+                A menudo hay muchas criaturas redondas que parecían peces pequeños que los acompañan
+                que a su vez en los peces de colores brillantes entrar en contacto con la magia o de
+                otros peces. A estos se les llama bollabies.</DESCRIPCION>
+            <QUE_SON>Las Selkies son pequeñas sirenas guardianas de cada oceano, pueden enlazarse
+                con alguna hada. Estas pequeñas tienen el poder de abrir y cerrar los portales a su
+                oceano respectivo.</QUE_SON>
+            <SELKIE>
+                <NOMBRE>Lemmy</NOMBRE>
+                <GUARDIANA>Guardiana de el portal de los oceanos de Andros</GUARDIANA>
+                <VINCULACION>Laila de Andros</VINCULACION>
+                <IMG>img/Lemmy.jpg</IMG>
+            </SELKIE>
+            <SELKIE>
+                <NOMBRE>Illiris</NOMBRE>
+                <GUARDIANA>Guardiana de el portal de los oceanos de Solaria</GUARDIANA>
+                <VINCULACION>Stella de Solaria</VINCULACION>
+                <IMG>img/Illiris.webp</IMG>
+            </SELKIE>
+            <SELKIE>
+                <NOMBRE>Phylla</NOMBRE>
+                <GUARDIANA>Guardiana de el portal de los oceanos de Tierra</GUARDIANA>
+                <VINCULACION>Roxy de la Tierra</VINCULACION>
+                <IMG>img/Phylla.webp</IMG>
+            </SELKIE>
+            <SELKIE>
+                <NOMBRE>Sonna</NOMBRE>
+                <GUARDIANA>Guardiana de el portal de los oceanos de Melody</GUARDIANA>
+                <VINCULACION>Musa de Melody</VINCULACION>
+                <IMG>img/Sonna.webp</IMG>
+            </SELKIE>
+            <SELKIE>
+                <NOMBRE>Desiryee</NOMBRE>
+                <GUARDIANA>Guardiana de el portal de los oceanos de Linphea</GUARDIANA>
+                <VINCULACION>Flora de Linphea</VINCULACION>
+                <IMG>img/Desiryee.webp</IMG>
+            </SELKIE>
+            <SELKIE>
+                <NOMBRE>Serena</NOMBRE>
+                <GUARDIANA>Guardiana de el portal de los oceanos de Domino</GUARDIANA>
+                <VINCULACION>Bloom de Domino</VINCULACION>
+                <IMG>img/Serena.webp</IMG>
+            </SELKIE>
+            <SELKIE>
+                <NOMBRE>Lithia</NOMBRE>
+                <GUARDIANA>Guardiana de el portal de los oceanos de Zenith</GUARDIANA>
+                <VINCULACION>Tecna de Zenith</VINCULACION>
+                <IMG>img/Lithia.webp</IMG>
+            </SELKIE>
+            <SELKIE>
+                <NOMBRE>Nissa</NOMBRE>
+                <GUARDIANA>Guardiana de el portal de los oceanos de Magix</GUARDIANA>
+                <VINCULACION>Ninguna</VINCULACION>
+                <IMG>img/Nissa.webp</IMG>
+            </SELKIE>
+        </SELKIES>
+        <ANIMALES_MAGICOS>
+            <ANIMAL>
+                <NOMBRE>Necrofagos</NOMBRE>
+                <CARACTERISTICAS>Son bastante pequeños, un tipo de color rojo granate, tiene ojos
+                    amarillos y tienen cuatro piernas, pero puede ponerse de pie y utilizar las
+                    piernas como los brazos. También tienen garras.</CARACTERISTICAS>
+                <TIPO inclinacion="maligna">Salvaje</TIPO><!-- Pueden ser de tipo salvaje, mascota o
+                     por invocacion (maligno, inofensiva y neutral) -->
+                <IMG>img/Necrofagos.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Ogros</NOMBRE>
+                <CARACTERISTICAS>Son bestias amarillas gigantes, pueden llevar ropa si lo desean y
+                    tienen un buen sentido del olfato, por no hablar de que puedan hablar. Pueden
+                    ser tan compasivo como gente normal que denotan su alto nivel de inteligencia.</CARACTERISTICAS>
+                <TIPO inclinacion="inofensiva">Mascotas</TIPO>
+                <IMG>img/Ogros.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Cazador Troll</NOMBRE>
+                <CARACTERISTICAS>Como su nombre indica, son buenos en la caza, sobre todo con la
+                    nariz y una vez que un troll recoge un olor, él nunca la pierde (excepto si la
+                    presa sale del planeta, pero una vez que regrese, el perfume está de vuelta)</CARACTERISTICAS>
+                <TIPO inclinacion="maligna">Salvajes</TIPO>
+                <IMG>img/Cazador_Troll.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Dragones</NOMBRE>
+                <CARACTERISTICAS>Una de las muchas criaturas que viven en el mundo mágico. Estos
+                    están en los establos de Fuente Roja, tienen varios dragones. Algunos son
+                    sensibles.</CARACTERISTICAS>
+                <TIPO inclinacion="neutral">Salvajes</TIPO>
+                <IMG>img/Dragones.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Kerborg</NOMBRE>
+                <CARACTERISTICAS>Es la mascota maligna de Lord Darkar tratándose de una especie de
+                    murcielago con el cual permitió transformarse en diversos ogros, monstruos con
+                    el fin de distraer a cualquier oponente Darkar puede alterar la forma del
+                    Kerborg usando su magia oscura, convirtiéndolo en seres increíblemente poderosos</CARACTERISTICAS>
+                <TIPO inclinacion="maligna">Invocacion</TIPO>
+                <IMG>img/Kerborg.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Sirenas</NOMBRE>
+                <CARACTERISTICAS>Las Sirenas son criaturas mágicas que aparecen en la serie Winx
+                    Club. Son criaturas con alas con la parte inferior de un pez y parte superior de
+                    las mujeres. Sus contrapartes masculinas se conocen como tritones. Tienen
+                    habilidades mágicas y se parecen a las versiones más grandes de las ninfas sin
+                    colgajos de piel debajo de los brazos. La sociedad de la sirena se encuentra en
+                    el reino de Andros. Las Sirenas tienen voces potentes y la capacidad de volar.</CARACTERISTICAS>
+                <TIPO inclinacion="inofensiva">Salvaje</TIPO>
+                <IMG>img/Sirenix.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Serpiente de Hielo</NOMBRE>
+                <CARACTERISTICAS>La serpiente de hielo es una serpiente azul claro gigante con una
+                    lengua bifurcada en la boca y ojos azul oscuro. Tiene escamas de hielo cían en
+                    su cuerpo. La serpiente de hielo más grande es casi blanca y tiene volantes
+                    azules en las cejas y tiene orejas. Tiene dientes puntiagudos como un animal
+                    carnívoro y zarcillos blancos como bigotes en su mandíbula inferior. Se parece
+                    un poco a un dragón chino y al gran dragón. La serpiente de hielo es el guardián
+                    principal y la esencia de la Dimensión Omega</CARACTERISTICAS>
+                <TIPO inclinacion="neutral">Salvaje</TIPO>
+                <IMG>img/Serpiente_de_hielo.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Kraken</NOMBRE>
+                <CARACTERISTICAS> El Kraken es una criatura submarina originaria de Andros. Mide mas
+                    de 20 metros, es rapido y en su bca se encuentran afilados colmillos</CARACTERISTICAS>
+                <TIPO inclinacion="maligna">Salvaje</TIPO>
+                <IMG>img/Kraken.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Criatura del Manto Arcoiris</NOMBRE>
+                <CARACTERISTICAS>Vive en Graynor, antes fue un caballo marrón al principio, pero
+                    cuando un hada ha demostrado en si misma y lo encuentra, su apariencia cambia y
+                    se convierte en un caballo blanco con una larga melena de color arcoiris.</CARACTERISTICAS>
+                <TIPO inclinacion="inofensiva">Salvaje</TIPO>
+                <IMG>img/criatura_del_manto_arcoiris.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Electro-pulpo</NOMBRE>
+                <CARACTERISTICAS> Se trata de un un pulpo gigante el cual habita en las
+                    profundidades del oceano. Este es capaz de camuflarse canbando el color de su
+                    piel aunque principalmente se muestra con un color azul oscuro y puntos blancos
+                    como si de estrellas se tratara. Este pulpo posee una fuerza inmensa y es capaz
+                    de expulsar electricidad atraves de sus ojos</CARACTERISTICAS>
+                <TIPO inclinacion="maligna">Salvaje</TIPO>
+                <IMG>img/electro_pulpo.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Devorador</NOMBRE>
+                <CARACTERISTICAS>Los Devoradores son peces grandes con una gran cabeza cuadrada con
+                    una boca llena de dientes largos y afilados. Tienen un par de grandes aletas y
+                    unas largas y delgadas colas. Hay grandes picos en su cuerpo, los ojos verdes
+                    brillantes y un final de la aleta que se parecen a una pequeña bombilla de color
+                    verde brillante en la parte superior de la cabeza, que son sus únicos puntos
+                    débiles. Los Devoradores tienen la apariencia de una barracuda con un tiburón,
+                    aunque estos son mas grandes que ambos.</CARACTERISTICAS>
+                <TIPO inclinacion="maligna">Salvaje</TIPO>
+                <IMG>img/Devorador.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Ballenas Cantantes</NOMBRE>
+                <CARACTERISTICAS>Su piel es de color rosa oscuro con su cola color caqui claro,
+                    tienen el mismo tamaño que una ballena comun. Ambas pertenecen a Melodía, siendo
+                    el lugar donde se ubica la Columna de Equilibrio. Cuando son poseídas tienen un
+                    aura morada con los ojos purpura, al igual que el Devorador. Ahi, los cantos de
+                    las ballenas serán chirridos distorsionados y permiten crear ondas sonícas muy
+                    fuertes para repeler adversarios</CARACTERISTICAS>
+                <TIPO inclinacion="inofensiva">Salvaje</TIPO>
+                <IMG>img/ballenas_cantantes.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Ejército de la oscuridad</NOMBRE>
+                <CARACTERISTICAS>Estos aparecen físicamente con la lluvia negra (es agua normal,
+                    pero adaptada a un hechizo de oscuridad), ya que en dicho estado de clima la
+                    lluvia tiene habilidad de convocar varios monstruos.Una característica
+                    importante es que por cada monstruo que corte, aparecerá dos más. El monstruo
+                    también se puede unir en una bestia</CARACTERISTICAS>
+                <TIPO inclinacion="maligna">Invocacion</TIPO>
+                <IMG>img/Ejército_de_la_oscuridad.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Duendes Pandemonio</NOMBRE>
+                <CARACTERISTICAS>Son unos pequeños duendes de color crema por su piel y sus escamas
+                    marrones en forma de un Armadillo. Parecen ser como gargolas mutadas, pero con
+                    la aparencia de Duendes</CARACTERISTICAS>
+                <TIPO inclinacion="maligna">Invocacion</TIPO>
+                <IMG>img/Duendes_Pandemonium.webp</IMG>
+            </ANIMAL>
+            <ANIMAL>
+                <NOMBRE>Yeti</NOMBRE>
+                <CARACTERISTICAS>Como se trata de una de las criaturas que viven sólo sobre el
+                    helado planeta Domino, que tiene competencias relacionadas con el hielo, como la
+                    creación de tormentas de nieve o el uso de las ventiscas de crear picos de hielo
+                    con el fin de atacar. Al decir que es una criatura magica tuvo semejanzas a una
+                    morsa mutado como un gorila.</CARACTERISTICAS>
+                <TIPO inclinacion="neutral">Salvaje</TIPO>
+                <IMG>img/Yeti.webp</IMG>
+            </ANIMAL>
+        </ANIMALES_MAGICOS>
+    </CRIATURAS>
+    <PRODUCTOS>
+        <CARTAS>
+            <WINXS>
+                <CARTA id="w001">
+                    <NOMBRE>Bloom</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Hada del fuego del dragón y Princesa de Dominó</DESCRIPCION_PERSONAJE>
+                    <IMG>img/BloomCartajpg.jpg</IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="w002">
+                    <NOMBRE>Estela</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Hada del Sol y la Luna y Princesa de Solaria</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="w003">
+                    <NOMBRE>Flora</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Hada de la Naturaleza</DESCRIPCION_PERSONAJE>
+                    <IMG>img/FloraCartajpg.jpg</IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="w004">
+                    <NOMBRE>Musa</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Hada de la Música</DESCRIPCION_PERSONAJE>
+                    <IMG>img/MusaCartajpg.jpg</IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="w005">
+                    <NOMBRE>Tecna</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Hada de la Tecnología</DESCRIPCION_PERSONAJE>
+                    <IMG>img/TecnaCartajpg.jpg</IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="w006">
+                    <NOMBRE>Laila</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Hada de los Líquidos y Princesa de Andros</DESCRIPCION_PERSONAJE>
+                    <IMG>img/LailaCartajpg.jpg</IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+            </WINXS>
+            <ESPECIALISTAS>
+                <CARTA id="e001">
+                    <NOMBRE>Sky</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Príncipe de Eraklyon, es un magnífico guerrero, al igual que el resto de especialistas</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="e002">
+                    <NOMBRE>Brandom</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Es el mejor amigo de Sky desde que son pequeños y un especialista con una gran atracción en las chicas. Es divertido y leal y tiene un humor un tanto irónico, pero es un buen amigo</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO></PRECIO>
+                </CARTA>
+                <CARTA id="e003">
+                    <NOMBRE>Riven</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Es un chico engreído y competitivo aunque a su vez un buen amigo y especialista</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="e004">
+                    <NOMBRE>Helia</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Nació en Linphea, al igual que Flora y Krystal. Es el sobrino de Saladino y, después de abandonar Fuente Roja, volvió a ser un especialista con sus amigos. Es un chico sensible, tranquilo, experto en la poesía, la pintura</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="e005">
+                    <NOMBRE>Timmy</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Es el jefe y capitán general en ofensiva y defensiva del equipo. Es el que más sabe de tecnología, es inteligente, intuitivo, tranquilo y tímido</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="e006">
+                    <NOMBRE>Nabu</NOMBRE>
+                    <DESCRIPCION_PERSONAJE> Nabu en realidad es una mago y no es un especialista, pues no estudia en Fuente Roja, pero decidió unirse al equipo para estar con las Winx y, especialmente, con Layla.</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+            </ESPECIALISTAS>
+            <BRUJAS>
+                <CARTA id="b001">
+                    <NOMBRE>Icy</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Una de la sbrujas mas poderosas y su poder es controlar el hielo</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="b002">
+                    <NOMBRE>Darcy</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Tiene control mental sobre las personas, además de especializarse en la oscuridad y en los efectos ópticos</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+                <CARTA id="b003">
+                    <NOMBRE>Stormy</NOMBRE>
+                    <DESCRIPCION_PERSONAJE> Domina la tormenta, la lluvia y los rayos</DESCRIPCION_PERSONAJE>
+                    <IMG></IMG>
+                    <PRECIO>5,99€</PRECIO>
+                </CARTA>
+            </BRUJAS>
+        </CARTAS>
+        
+        <OBJETOS_MAGICOS>
+            <OBJETO tipo="accesorio">
+                <NOMBRE>Anillo de Solaria</NOMBRE>
+                <IMG>img/Anillo_de_Solaria.webp</IMG>
+                <DESCRIPCION>El Anillo de Solaria es un anillo mágico que pertenece a Stella. Se
+                    puede convertir en un cetro que Stella suele utilizar para ayudar a lanzar
+                    hechizos, o teletransportarse a sí misma y a otras personas a un lugar
+                    determinado. De acuerdo con Stella, el anillo es de 6,1 magia pura.</DESCRIPCION>
+                <PRECIO>10€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="objeto">
+                <NOMBRE>Codex</NOMBRE>
+                <IMG>img/Codex.webp</IMG>
+                <DESCRIPCION>Para abrir el portal al reino de Realix, las cuatro piezas del Codex
+                    deben ser reunidas y un hechizo tiene que ser utilizado. El equilibrio entre la
+                    Luz y la Oscuridad se deben respetar para abrir el portal y para obtener el
+                    poder definitivo del Reino de Realix, tiene que tener la Llama del dragón y el
+                    poder del fénix. Lord Darkar secuestró a Bloom y la convierte en su versión
+                    oscura con el propósito de entrar a Realix uniendo las piezas del codex.</DESCRIPCION>
+                <PRECIO>2,50€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="accesorio">
+                <NOMBRE>Máscara de Daphne</NOMBRE>
+                <IMG>img/Máscara_de_Daphne.jpg</IMG>
+                <DESCRIPCION>La Máscara de Daphne es un objeto mágico especial de Daphne. Ella la
+                    uso cuando no poseía su forma física. Al parecer, gracias a ella, se mantiene en
+                    su posición sin ningún apego, posiblemente por arte de magia.</DESCRIPCION>
+                <PRECIO>15,99€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="objeto">
+                <NOMBRE>Círculo Negro</NOMBRE>
+                <IMG>img/Círculo_Negro.webp</IMG>
+                <DESCRIPCION>El Círculo Negro es un objeto mágico creado por los Hechiceros del
+                    Círculo Negro, como una manera de luchar contra el poder de las hadas.</DESCRIPCION>
+                <PRECIO>5,87€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="objeto">
+                <NOMBRE>Círculo Blanco</NOMBRE>
+                <IMG>img/Circulo_Blanco.webp</IMG>
+                <DESCRIPCION>Se trata de un anillo mágico de color blanco que actúa como un portal
+                    al reino de Tir Nan Og, donde las hadas de la Tierra fueron encarceladas.</DESCRIPCION>
+                <PRECIO>5,87€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="objeto">
+                <NOMBRE>Cajas Sirenix</NOMBRE>
+                <IMG>img/Cajas_Sirenix.webp</IMG>
+                <DESCRIPCION>Se trata de varias cajas que cada una de las Winx ganan a lo largo de
+                    la temporada en su búsqueda para ganar el poder Sirenix.</DESCRIPCION>
+                <PRECIO>12€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="accesorio">
+                <NOMBRE>Gema de Coral</NOMBRE>
+                <IMG>img/Gema_de_Coral.webp</IMG>
+                <DESCRIPCION>Es una joya montada en el bastón de la Reina Ligea. Tiene el poder de
+                    otorgar hechizos de curación siempre que pueda capturar los últimos rayos del
+                    crepúsculo.</DESCRIPCION>
+                <PRECIO>11,50€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="accesorio">
+                <NOMBRE>Bastón de Nabu</NOMBRE>
+                <IMG>img/Bastón_de_Nabu.jpg</IMG>
+                <DESCRIPCION>Es una larga vara de oro con una joya púrpura en la parte superior. Él
+                    lo utiliza para ayudarse a sí mismo para lanzar hechizos, pero también lo puede
+                    utilizar para fines de combate.</DESCRIPCION>
+                <PRECIO>5,70€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="objeto">
+                <NOMBRE>Cofre Agador</NOMBRE>
+                <IMG>img/Cofre_Agador.webp</IMG>
+                <DESCRIPCION>Es una caja mágica que tiene el poder de contener cualquier hechizo o
+                    forma de magia colocada en ella.</DESCRIPCION>
+                <PRECIO>9,99€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="objeto">
+                <NOMBRE>Estrellas de agua</NOMBRE>
+                <IMG>img/Estrellas_de_Agua.webp</IMG>
+                <DESCRIPCION>Las Estrellas de agua fueron creados al mismo tiempo donde nació el
+                    todopoderoso Gran Dragón. Debido a que su energía mágica era infinitamente
+                    ilimitada y el poder es el opuesto natural de la llama del Dragón, que no pueden
+                    existir en la misma dimensión que las dos potencias entrarían en conflicto y
+                    provocar el caos y la destrucción en toda la dimensión, el tiempo limpiándose
+                    mutuamente. Para evitar una catástrofe galáctica, un grupo de inmensamente
+                    poderosos magos antiguos se reunieron a fin de reunirlos y les sellada. Las
+                    Estrellas de agua se han mantenido en el Reino de Oro desde entonces, donde
+                    fueron custodiados por Arcadia, siendo una hada en existencia.</DESCRIPCION>
+                <PRECIO>15,98€</PRECIO>
+            </OBJETO>
+            <OBJETO tipo="objeto">
+                <NOMBRE>Libro Sirenix</NOMBRE>
+                <IMG>img/Libro_sirenix.webp</IMG>
+                <DESCRIPCION>El libro se encontraba oculto entre los muchos otros libros del archivo
+                    magico de la biblioteca de Alfea. Daphne lo utilizo hace tiempo para obtener el
+                    Sirenix y luego le dijo a las Winx donde encontrarlo.</DESCRIPCION>
+                <PRECIO>20€</PRECIO>
+            </OBJETO>
+        </OBJETOS_MAGICOS>
+    </PRODUCTOS>
+    
+    <VESTUARIOS>
+        <ROPA>
+            <NOMBRE>Magic Winx</NOMBRE>
+            <DESCRIPCION> Es la transformación estándar para las hadas y el nivel más bajo de la
+                transformación. De esta forma las hadas pueden utilizar más fácilmente su magia que
+                cuando están en forma civil, y pueden volar, así como usar hechizos muy poderosos.
+                Un hada generalmente es primero capaz de transformarse cuando ella gana suficiente
+                fuerza de voluntad y cree plenamente en su magia y habilidades</DESCRIPCION>
+            <IMG>img/Magic_Winx.webp</IMG>
+            <PRECIO>6,89€</PRECIO>
+        </ROPA>
+        <ROPA>
+            <NOMBRE>Charmix</NOMBRE>
+            <DESCRIPCION> Impulsa la energía mágica de un hada, haciéndola más potente y lo que le
+                permite usar la magia en lugares donde en forma normal de hadas que ella no sería
+                capaz de llevar a cabo ningún tipo de magia y se gana cuando un hada supera una gran
+                dificultad personal.
+                
+                Sin embargo, puede quedarse sin energía y el hada o éstas resulten más débiles o no
+                puede utilizar ningún tipo de magia</DESCRIPCION>
+            <IMG>img/Charmix.webp</IMG>
+            <PRECIO>5€</PRECIO>
+        </ROPA>
+        <ROPA>
+            <NOMBRE>Enchantix</NOMBRE>
+            <DESCRIPCION> Las hadas se vuelven aún más potentes, son capaces de usar poderes como el
+                Polvo de Hadas y Miniaturización. Las hadas son entonces capaces de curarse a sí
+                mismas y a los demás, y también son capaces de romper poderosos hechizos oscuros;
+                Con esta habilidad las hadas son guardianes de la Dimensión Mágica. Por lo general,
+                se gana por el hada de lograr un acto de sacrificio para salvar a alguien de su
+                propio planeta o por la fuerza de voluntad en el caso de Bloom. Sin embargo, un
+                Enchantix obtenido de esta forma es incompleto y el hada no puede usar sus poderes
+                de miniaturización por lo que puede perder fácilmente el control.</DESCRIPCION>
+            <IMG>img/Enchantix.webp</IMG>
+            <PRECIO>10,98€</PRECIO>
+        </ROPA>
+        <ROPA>
+            <NOMBRE>Believix</NOMBRE>
+            <DESCRIPCION>Es la primera forma de hadas nivel superior introducido en Winx Club. La
+                alimentación principal del Believix es hacer que la gente abra sus corazones a los
+                buenos sentimientos y para hacerles creer en la magia. También hay hechizos
+                específicos a esta transformación, así como tres conjuntos de alas, a saber, la
+                Velocidix, que son alas que permiten que el hada para volar extremadamente rápido;
+                Tracix, permite a las hadas para conectar mágicamente a lugares y ver la historia de
+                estos lugares; y las alas Zoomix, que permite a las hadas para teletransportarse a
+                sí mismas.
+                
+                Se gana por un hada cuando convence a alguien que no cree en la magia para empezar a
+                creer en él</DESCRIPCION>
+            <IMG>img/Believix.jpg</IMG>
+            <PRECIO>12€</PRECIO>
+        </ROPA>
+        <ROPA>
+            <NOMBRE>Shopix</NOMBRE>
+            <DESCRIPCION>Sophix es el don de la sabiduría y permite a las hadas Believix conectarse
+                a sí mismos a los poderes de la naturaleza, y para estar en contacto con ella. Es un
+                sub-transformación de Believix y se utiliza cuando las Winx tuvieron que hacer
+                frente a Diana, el hada mayor de la Naturaleza.</DESCRIPCION>
+            <IMG>img/Shopix.webp</IMG>
+            <PRECIO>12€</PRECIO>
+        </ROPA>
+        <ROPA>
+            <NOMBRE>Lovix</NOMBRE>
+            <DESCRIPCION>Lovix es el don del coraje, así como el don del corazón y permite que las
+                Hadas se protejan del frío, así como el uso de los poderes de hielo. Es otra
+                sub-transformación de Believix y se utiliza cuando las Winx tratan de detener a
+                Aurora, la Mayor de hada del polo Norte</DESCRIPCION>
+            <IMG>img/Lovix.webp</IMG>
+            <PRECIO>12€</PRECIO>
+        </ROPA>
+        <ROPA>
+            <NOMBRE>Harmonix</NOMBRE>
+            <DESCRIPCION>Los Guardianes Sirenix tienen el poder de dar u otorgar este poder de las
+                hadas. Se administra a las Winx para ayudarlas en su búsqueda del Sirenix, así como
+                mejorar sus competencias y son capaces de usarlos bajo el agua</DESCRIPCION>
+            <IMG>img/Harmonix.webp</IMG>
+            <PRECIO>15€</PRECIO>
+        </ROPA>
+        <ROPA>
+            <NOMBRE>Sirenix</NOMBRE>
+            <DESCRIPCION>es una antigua potencia que se introduce en la 5ª Temporada, que nació de
+                la magia de los océanos. Se gana por las Winx, a fin de que sean lo suficientemente
+                fuertes como para luchar con Tritannus y Trix, porque sus poderes Believix son
+                inmunes con el agua. Las Trix también han ganado un semejante poder llamado Sirenix
+                Oscuro.</DESCRIPCION>
+            <IMG>img/Sirenix.webp</IMG>
+            <PRECIO>15,90€</PRECIO>
+        </ROPA>
+        <ROPA>
+            <NOMBRE>Bloomix</NOMBRE>
+            <DESCRIPCION>Es la transformación de la 6ª Temporada. Bloom comparte su Llama del dragón
+                a las Winx, que necesitan para llevar a cabo una buena acción digna para ganar esta
+                transformación. Ayuda a la lucha contra las criaturas invocadas desde el Legendarium
+                durante su búsqueda de encontrar a Eldora para cerrar el Legendarium.</DESCRIPCION>
+            <IMG>img/Bloomix.webp</IMG>
+            <PRECIO>11€</PRECIO>
+        </ROPA>
+        <ROPA>
+            <NOMBRE>Mythix</NOMBRE>
+            <DESCRIPCION>Las Winx obtienen esta forma tras haber obtenido las Varas Ancestrales que
+                les sirve para entrar en el Mundo del Legendarium y conseguir piezas clave para
+                poder cerrar el libro. Aun así teniendo esta transformación, en el mundo real se
+                habilita el Bloomix significando que el Mythix solamente funciona para luchar en el
+                Mundo del Legendarium.</DESCRIPCION>
+            <IMG>img/Mythix.webp</IMG>
+            <PRECIO>10,77€</PRECIO>
+        </ROPA>
+    </VESTUARIOS>
+</COLECCION>
