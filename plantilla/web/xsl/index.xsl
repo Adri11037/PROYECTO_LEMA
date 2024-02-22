@@ -10,7 +10,6 @@
     
     <xsl:template match="/">
         <xsl:variable name="logo" select="//LOGO"/>
-    
         <html lang="es">
             
             <head>
@@ -40,37 +39,14 @@
                 <section id="main">
                     <div class="inner">
                         <header class="major special">
-                            <h1>Guinx</h1>
-                            <p>If I'm crazy, I'm on my own
-                                If I'm waitin', it's on my throne
-                                If I sound lazy, just ignore my tone
-                                'Cause I'm always gonna answer when you call my phone
-                                Like, "Whatsapp, Danger?"
-                                Like, "Whatsapp, Danger?"
-                                Don't, don't be a stranger
-                                Whatsapp up, Danger?</p>
+                            <h1>Winx Club</h1>
                         </header>
                         <!-- imagen carácterística de la empresa o asociación -->
-                        <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+                        <a href="#" class="image fit"><img src="images/imagen_inicio.png" alt="img_empresa" /></a>
                         <!-- texto introductorio en el que se detalle lo que hace la empresa o asociación -->
-                        <p>Here we are, going far
-                            To save all that we love
-                            If we give, all we've got
-                            We will make it through
-                            Here we are, like a star
-                            Shining bright on your world
-                            Today, make evil go away</p>
-                        
-                        <p>Code Lyoko, we'll reset it all
-                            Code Lyoko, be there when you call
-                            Code Lyoko, we will stand real tall
-                            Code Lyoko, stronger after all</p>
-                        
-                        <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus
-                            condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor
-                            interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum
-                            volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut
-                            aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+                        <p>
+                            <p><xsl:value-of select="//INTRODUCCION"/></p>
+                        </p>
                     </div>
                 </section>
                 
@@ -78,7 +54,7 @@
                 <footer id="footer">
                     <div class="inner">
                         <div class="copyright">
-                            2024 Arianet - Andoni - Adriana
+                            ©2024 Arianet - Andoni - Adriana
                             <ul class="icons">
                                 <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
                                 <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -87,7 +63,7 @@
                                 <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
                                 <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
                             </ul>
-                            Datos de la empresa o asosciación
+                            WinxClub™
                         </div>
                     </div>
                 </footer>

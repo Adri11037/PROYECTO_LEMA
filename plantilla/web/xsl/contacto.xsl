@@ -9,36 +9,22 @@
                 version="3.0">
     
     <xsl:template match="/">
-        <!DOCTYPE HTML>
         <!--
              Base de la plantilla creada por TEMPLATED y adapatada para la realización del
              Proyecto dirigido a la validación, formateo y transformación de documentos XML
         -->
+         <xsl:variable name="logo" select="//LOGO"/>
         <html lang="es">
             
             <head>
                 <title>Winx Project</title>
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-                <link rel="stylesheet" href="../assets/css/main.css" />
-                <link rel="shortcut icon" href="../images/logoWinx.png" type="image/x-icon"/>
+                <link rel="stylesheet" href="../../assets/css/main.css" />
             </head>
             
             <body>
                 
-                <!-- Header -->
-                <header id="header">
-                    <div class="inner">
-                        <a href="#" class="logo"><img src="images/logoWinx.png" alt="logo"/></a>
-                        <nav id="nav">
-                            <a href="../index.html">Página Principal</a>
-                            <a href="catalogo_1.html">Coleccion</a>
-                            <a href="catalogo_2.html">La serie</a>
-                            <a href="contacto.html">Contacto</a>
-                        </nav>
-                    </div>
-                </header>
-                <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
                 
                 <!-- Main -->
                 <section id="main">
@@ -70,17 +56,17 @@
                 <footer id="footer">
                     <div class="inner">
                         <div class="copyright">
-                            &copy; 202X Integrantes del grupo
-                            <ul class="icons">
-                                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                                <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-                                <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-                            </ul>
-                            Datos de la empresa o asosciación
-                        </div>
+							©Ariannet	- 	Andoni 	- 	Adriana 2024
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+							</ul>
+							WinxClub™
+						</div>
                     </div>
                 </footer>
                 

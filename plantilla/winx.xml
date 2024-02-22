@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE COLECCION SYSTEM "winx.dtd">
+<?xml-model href="winx.xsd"?>
+
+<!-- EXISTENCIAS_TOTALES: VARIABLE EN XSL-->
+
+
 <COLECCION>
-    <INTRODUCCION>En esta pagina descubriras tanto infromacion acerca de la famosa serie "Winx Club"
+    <INTRODUCCION>En esta pagina descubriras tanto informacion acerca de la famosa serie "Winx Club"
         como articulos que podras comprar de esta</INTRODUCCION>
     <DESCRIPCION_SERIE>
+        <PARRAFO>
         Las Hadas son criaturas mágicas que viven en la Dimensión Mágica. A lo largo
         de la serie, se han visto muchos tipos de hadas. Estos incluyen las hadas normales, al igual
         que las chicas Winx Alfea y otros estudiantes, así como otros seres mágicos como Arcadia,
@@ -11,27 +17,33 @@
         apariencia, con las hadas normales buscan exactamente igual que los humanos, pero con las
         alas cuando se transforma, mientras Arcadia y las hadas etéreas tienen unas características
         menos humanos y se parecen más a los seres puramente mágicos.
+        </PARRAFO>
         
-        La mayoría de las hadas se saben que han utilizado sus poderes para buenos propósitos y
+       
+        <PARRAFO>La mayoría de las hadas se saben que han utilizado sus poderes para buenos propósitos y
         proteger la dimensión mágica de las fuerzas del mal, y han colaborado con otros seres
         mágicos como duendes, brujas y magos para luchar contra el mal, un ejemplo es la Compañía de
         Luz. Sin embargo, algunas de las hadas se sabe que se han aliado con las fuerzas del mal
         para sus propios motivos egoístas. Otras Hadas, mientras que en realidad no cambian al lado
         oscuro o aliarse con las fuerzas del mal, sin embargo han estado en el lado malo y hecho
-        cosas malas
+        cosas malas</PARRAFO>
         
-        ----------------------------------------------------------------------------------------------
-        Las Brujas (o Hechiceras) son criaturas mágicas de la Dimensión Mágica y son el polo opuesto
+        
+        <PARRAFO>Las Brujas (o Hechiceras) son criaturas mágicas de la Dimensión Mágica y son el polo opuesto
         de las hadas. Las brujas y los magos son similares en apariencia a los seres humanos y las
         hadas. Sin embargo, la fuente de sus poderes mágicos es proveniente a sus sentimientos
         negativos y de la oscuridad, mientras que las Hadas deriva a sus buenos sentimientos y de la
         luz.
+        </PARRAFO>
         
-        Para ello las brujas casualmente visten ropas oscuras, góticos, punks entre otros tipos de
+       
+        <PARRAFO>Para ello las brujas casualmente visten ropas oscuras, góticos, punks entre otros tipos de
         vestimentas. Aunque varias chicas tienen atuendos similares a las hadas pero con ciertos
         cambios.
+        </PARRAFO>
+
         
-        Incluso si algunas brujas han utilizado sus poderes para fines malignos, la mayoría de las
+        <PARRAFO>Incluso si algunas brujas han utilizado sus poderes para fines malignos, la mayoría de las
         brujas no son necesariamente malos, como se ha mencionado varias veces en la serie, siendo
         ejemplo Griffin quien ayudó a la Compañía de Luz para combatir contra lasBrujas Ancestrales
         (como un esfuerzo por haber inicialmente trabajado con las antepasadas y Valtor, aunque fue
@@ -39,17 +51,21 @@
         antepasadas cuando dice que dejó las antepasadas a lado con su "gran amigo"), Faragonda (que
         era una bruja, pero más tarde se convirtió en un hada), Mirta, Lucy y muchas otras brujas de
         Torre Nubosa ayudaron a las hadas
+        </PARRAFO>
+
         
-        ----------------------------------------------------------------------------------------------
-        Las Hadas, brujas y seres humanos constituyen la parte principal de la sociedad de la
+        <PARRAFO>Las Hadas, brujas y seres humanos constituyen la parte principal de la sociedad de la
         dimensión mágica, la proporción de cada variable a través de los reinos, con otros seres
         mágicos como los elfos, ogros, Hechiceros y otros seres mágicos también están presentes en
         algunos ámbitos, y parece que las hadas suelen ser los principales miembros de las
         sociedades de la mayoría de los reinos de la Dimensión Mágica.
+        </PARRAFO>
     </DESCRIPCION_SERIE>
     <LOGO>images/logo.png</LOGO>
     <IVA>21</IVA>
     <TEMPORADAS>
+        <!-- POR CADA TEMPORADA PUEDE TENER O NO SUB-TRANFORMACIONES, NO ES OBLIGATORIO QUE LAS
+             TENGA-->
         <TEMPORADA>
             <NOMBRE>1ªTemporada</NOMBRE>
             <TRAMA>Bloom, una chica normal del planeta Tierra, vive una vida perfectamente normal en
@@ -73,9 +89,12 @@
             <TRANSFORMACIONES>
                 <TRANSFORMACION_PRINCIPAL>Magic Winx</TRANSFORMACION_PRINCIPAL>
             </TRANSFORMACIONES>
-            <IMAGEN>img/temporada1.webp</IMAGEN>
+            <IMAGEN>temporada1.webp</IMAGEN>
             <DVD>Contiene 26 capitulos</DVD>
-            <PRECIO>19,00€</PRECIO>
+            <PRECIO>19.00€</PRECIO>
+            <DESCUENTO>10.00</DESCUENTO>
+            <EXISTENCIAS>15</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/1%C2%AA_Temporada</WEB>
         </TEMPORADA>
         <TEMPORADA>
             <NOMBRE>2ªTemporada</NOMBRE>
@@ -98,9 +117,12 @@
             <TRANSFORMACIONES>
                 <TRANSFORMACION_PRINCIPAL>Charmix</TRANSFORMACION_PRINCIPAL>
             </TRANSFORMACIONES>
-            <IMAGEN>img/temporada2.webp</IMAGEN>
+            <IMAGEN>temporada2.webp</IMAGEN>
             <DVD>Contiene 26 capitulos</DVD>
-            <PRECIO>19,00€</PRECIO>
+            <PRECIO>19.00€</PRECIO>
+            <DESCUENTO>10.00</DESCUENTO>
+            <EXISTENCIAS>3</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/2%C2%AA_Temporada</WEB>
         </TEMPORADA>
         <TEMPORADA>
             <NOMBRE>3ªTemporada</NOMBRE>
@@ -123,9 +145,12 @@
             <TRANSFORMACIONES>
                 <TRANSFORMACION_PRINCIPAL>Enchantix</TRANSFORMACION_PRINCIPAL>
             </TRANSFORMACIONES>
-            <IMAGEN>img/temporada3.jpg</IMAGEN>
+            <IMAGEN>temporada3.jpg</IMAGEN>
             <DVD>Contiene 26 capitulos y una pelicula: "Winx Club: El Secreto del Reino Perdido"</DVD>
-            <PRECIO>22,00€</PRECIO>
+            <PRECIO>22.00€</PRECIO>
+            <DESCUENTO>0.00</DESCUENTO>
+            <EXISTENCIAS>50</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/3%C2%AA_Temporada</WEB>
         </TEMPORADA>
         <TEMPORADA>
             <NOMBRE>4ªTemporada</NOMBRE>
@@ -159,9 +184,12 @@
                     <TRANSFORMACION>Sophix</TRANSFORMACION>
                 </SUB-TRANSFORMACIONES>
             </TRANSFORMACIONES>
-            <IMAGEN>img/temporada4.jpg</IMAGEN>
+            <IMAGEN>temporada4.jpg</IMAGEN>
             <DVD>Contiene 26 capitulos y una pelicula: "Winx Club 3D: La Aventura Mágica"</DVD>
-            <PRECIO>22,00€</PRECIO>
+            <PRECIO>22.00€</PRECIO>
+            <DESCUENTO>5.00</DESCUENTO>
+            <EXISTENCIAS>25</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/4%C2%AA_Temporada</WEB>
         </TEMPORADA>
         <TEMPORADA>
             <NOMBRE>5ªTemporada</NOMBRE>
@@ -181,9 +209,12 @@
                 <TRANSFORMACION_INICIAL>Harmonix</TRANSFORMACION_INICIAL>
                 <TRANSFORMACION_FINAL>Sirenix</TRANSFORMACION_FINAL>
             </TRANSFORMACIONES>
-            <IMAGEN>img/temporada5.webp</IMAGEN>
+            <IMAGEN>temporada5.webp</IMAGEN>
             <DVD>Contiene 26 capitulos</DVD>
-            <PRECIO>19,00€</PRECIO>
+            <PRECIO>19.00€</PRECIO>
+            <DESCUENTO>10.00</DESCUENTO>
+            <EXISTENCIAS>15</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/5%C2%AA_Temporada</WEB>
         </TEMPORADA>
         <TEMPORADA>
             <NOMBRE>6ªTemporada</NOMBRE>
@@ -205,9 +236,222 @@
             </TRANSFORMACIONES>
             <IMAGEN>temporada5.webp</IMAGEN>
             <DVD>Contiene 26 capitulos</DVD>
-            <PRECIO>19,00€</PRECIO>
+            <PRECIO>19.00€</PRECIO>
+            <DESCUENTO>20.00</DESCUENTO>
+            <EXISTENCIAS>5</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/6%C2%AA_Temporada</WEB>
         </TEMPORADA>
+        <EXISTENCIAS_TOTALES></EXISTENCIAS_TOTALES>
     </TEMPORADAS>
+    
+    <PERSONAJES>
+        <!-- INFROMACION QUE HACE REFERENCIA A LAS CARTAS-->
+        <!-- WINX-->
+        <PERSONAJE id="w001">
+            <INFORMACION>Bloom comenzó como una joven insegura en el comienzo de la historia a causa
+                de la ignorancia que tenía en cuanto a sus verdaderos orígenes y sus extraños
+                poderes, sin embargo, sorprendentemente potentes. Más tarde, a medida que aprendía
+                más sobre la magia y ella misma, tenía cada vez más curiosidad por su pasado y
+                quienes eran sus padres biológicos. Una escapista por naturaleza, tiene tendencia a
+                huir cuando las cosas se ponen demasiado difíciles o confusas para ella, y también
+                puede ser impaciente y testaruda, con un mal genio. Bloom también era impulsiva, a
+                veces, lo que llevó a algunas experiencias muy malas tanto para ella y sus amigas.
+                Su mayor fuerza y ​​mayor debilidad era su estatus como la guardiana de la Llama del
+                dragón.</INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="w002">
+            <INFORMACION>Stella es una chica rubia de 17 años de edad (en la 1ª Temporada), descrita
+                como la hija del Sol y la Luna. Aunque Stella normalmente es orgullosa, se preocupa
+                por sus amigas. Se mantiene siempre es muy fiel a sus amigos y hará cualquier cosa
+                para mantenerlos a salvo. Stella siempre está sonriendo o contando chistes para
+                alegrar a sus amigos cuando están tristes. En definitiva, Stella tiene una
+                personalidad alegre y muy optimista. Además, es una fanática de la moda: qué ropa le
+                sienta mejor y qué vestidos pegan más con su cara. No es una estudiante ejemplar, a
+                veces va de compras en vez de estudiar o trabajar. Esta es la razón principal de por
+                qué Stella no es buena en la escuela. Es la más intuitiva de todas las integrantes
+                del Winx Club, le gusta buscar pareja a todo el mundo y esto hace que tenga
+                problemas con sus amigas, ya que no entiende por qué no les gusta.</INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="w006">
+            <INFORMACION>Layla, tiene 17 años de edad al inicio de la 2ª Temporada y 18 en la 3ª y
+                4ª Temporada. Aisha es muy obstinada y de mente abierta. Ella es tan intuitiva como
+                Stella y cuando se le pregunta, da consejos prácticos. Ella es también una bailarina
+                talentosa y habla muchos idiomas diferentes. Ella se opone firmemente a enredos
+                románticos con chicos, como se ve en el episodio 18 de la 3ª Temporada. Esto es
+                probablemente debido a su matrimonio preparado por sus padres, que se menciona en el
+                episodio 9. Los Pixies confían mucho en ella - Aisha es una de las pocas personas
+                que sabe de la Aldea Pixie. Aisha ofrece consejos prácticos y siempre ofrece un
+                hombro para llorar.</INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="w003">
+            <INFORMACION>Flora es dulce y tímida, genuina, calmada y ama a todas las plantas de todo
+                tipo, le gusta experimentar con ellas y disfruta de hacer el té. Flora está
+                fuertemente ligada a la naturaleza. Si a la naturaleza le "duele" algo, ella absorbe
+                el dolor. Le encanta ayudar a la gente. Ella puede ser muy sensible y siempre quiere
+                lo mejor para sus amigos y todos a su alrededor. Flora ocasionalmente es muy
+                sobreprotectora con su hermanita Miele, a pesar de que ella quiere ser valiente; lo
+                que Miele conlleva a varios hechos muy importantes para el Club Winx.</INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="w004">
+            <INFORMACION>Le encanta la música, bailar, cantar y tocar todos los instrumentos, siendo
+                su favorito la flauta de concierto. Musa suele tocar música increíble, pero toca
+                mejor cuando está sola en Alfea, en un lugar tranquilo. Es la más vulnerable
+                emocionalmente. Musa lo compensa poniendo una fachada dura. Su debilidad emocional
+                es probablemente el resultado de la muerte temprana de su madre y la ausencia de su
+                padre. Ella es también un poco solitaria y está enamorada de Riven, pero ambos no se
+                expresan el uno al otro hasta el final de la 2ª Temporada donde empiezan a salir.
+                Sorprendentemente (teniendo en cuenta que Tecna es el cerebro del grupo), Musa tenía
+                una de las mejores calificaciones del grupo, como se menciona en el episodio 15 de
+                la primera temporada (en ambas versiones de RAI y 4Kids). En la 3ª Temporada, Musa
+                admite que quiere romper con Riven, sin embargo esto no sucede ya que se
+                reconcilian. </INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="w005">
+            <INFORMACION>Tecna nació en Zenith el 16 de diciembre y su signo de hada es Tritón. Es
+                muy inteligente y le encanta la tecnología. A veces se pone demasiado en la
+                tecnología, y su entusiasmo con el mismo puede ser molesto. Ella es siempre práctica
+                y lógica, a veces hasta la exageración. Tecna tiene problemas para expresar sus
+                emociones y las bases de la mayoría de sus decisiones está en la lógica pura, aunque
+                en la 2ª y 3ª Temporada, se mete más en problemas, es más abierta y amistosa con sus
+                amigos. Es generosa y amable con ellos - realmente se preocupa por ellos, aun cuando
+                no siempre se puede mostrar. A ella le encanta la ciencia, hacer experimentos en su
+                tiempo libre. Ella también tiene una memoria fotográfica. Ella ama las computadoras
+                y los videojuegos. Ella tiene una voz ronca de América en la versión de Cinélume y
+                una voz británica en la versión 4kids. De acuerdo con su perfil en winxclub.com,
+                Tecna también disfruta de hacer deporte y estar activa. Ella también tiene un fuerte
+                vínculo con Musa. También le gusta Timmy, pero no sabe cómo decírselo.</INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="w007">
+            <INFORMACION>Daphne fue un espíritu viviente como una ninfa obligada a permanecer en la
+                parte inferior del Lago Rocaluz en Magix desde que fue hechizada 16 años antes del
+                inicio de los eventos de la serie, cuando las Brujas Ancestrales destruyeron su
+                reino. En Winx Club: El Secreto del Reino Perdido, Daphne muestra que es ingeniosa,
+                ya que resuelve un problema de Bloom con la búsqueda de la biblioteca de Domino
+                dándole a Bloom su máscara. Daphne es amable y una hermana que quiere a Bloom (dio
+                su vida por su hermana). A menudo actúa como guía siempre que parece tener problemas
+                con sus poderes o con la búsqueda de sus padres. La edad de Daphne sigue siendo un
+                misterio, aunque se sabe que era o una adulta joven o un adolescente en el momento
+                de su muerte (debido a un examen de sus cuadros). Junto con su edad, la educación de
+                Daphne y su forma de hada es misteriosa.</INFORMACION>
+        </PERSONAJE>
+        
+        <!-- ESPECIALISTAS-->
+        <PERSONAJE id="e001">
+            <INFORMACION>Sky tiene un fuerte sentido del deber que algunas veces pone en
+                contradicción con Bloom o Riven. El es consciente de la relación que Bloom tenia con
+                Andy, pero ningún antagonismo hacia el músico. El realmente se molesta por que como
+                actúa Bloom cuando están cerca. En las confesiones que se han dado él es excelente
+                como novio de Bloom.</INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="e002">
+            <INFORMACION>Brandon es amante de la diversión y muy gentil, hombre de espíritu amable.
+                Se destaca en los deportes y le gusta trabajar en su moto. Brandon es un
+                incorregible al coquetear, como se vio en El Show debe Continuar, cuando no sólo
+                coqueteó con dos brujas de visita, sino también con Stormy (que estaba disfrazada
+                como un hada a la vez). Brandon también coqueteó con Mitzi en la 4ª Temporada. Sin
+                embargo, después de que comienza a ver Stella, él mismo ha demostrado ser
+                extremadamente leal y nunca la engañaría. Incluso pensaba Brandon puede ser una
+                coqueta, le encanta Stella, es un poco de protección de ella cuando coquetea con los
+                chicos.</INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="e004">
+            <INFORMACION>Helia posee la mayor madurez de todos los Especialistas. Referido a una vez
+                por Brandon como un pacifista, le encanta escribir poemas y dibujos y el romance.
+                Helia no tiene miedo de tomar decisiones importantes y hacer lo que es correcto,
+                incluso si sus amigos no están de acuerdo con él. Él es muy atrevido, a veces, como
+                la vez que besó a Flora en la guarida de Darkar. Él no tiene miedo de expresar sus
+                pensamientos, como se muestra en la tercera temporada cuando actúa como un medio,
+                como Nabu, entre Bloom y Sky o Musa y Riven. </INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="e003">
+            <INFORMACION>Riven a menudo pone un frente frío, y tiene problemas para expresar sus
+                emociones. Se crió solo, así que él vive para sí mismo de acuerdo con sus propias
+                reglas. Su madre lo abandonó al nacer lo cual le llevó a desconfiar de las mujeres
+                en general. Sale con Musa y es un excelente espadachín, blandiendo una espada
+                púrpura con estilo y un chaco con una esfera rosa. </INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="e005">
+            <INFORMACION>Timmy viene de una familia de científicos reputados de Magix. Le encanta la
+                tecnología y naves voladoras de Fontana Roja. Su actitud para la tecnología le hace
+                el novio perfecto para Tecna. Él es dulce, pero tímido, aunque parezca cobarde a
+                veces. En la 2ª Temporada, es tan tímido que interfiere con él diciéndole a Tecna
+                cómo se siente acerca de ella. Él ama a Tecna, pero no puedo decirle eso. Él es el
+                menos experto de los especialistas en materia de combate pero lo compensa con su
+                amplio intelecto. Él se describe cómo listo para ganar a Tecna en los videojuegos,
+                en la 3ª Temporada, Episodio 14. Tecna también tiene algunos fuertes sentimientos
+                hacia Timmy, que tiene miedo a mostrarlos. </INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="e006">
+            <INFORMACION>Nabu era un Mago de Andros, de la familia más rica del planeta, y tuvo una
+                infancia aislada, similar a la de Aisha. Porque él no tenía amigos con los que
+                jugar, pasó la mayor parte de su tiempo aprendiendo trucos de batalla de sus
+                guardias de seguridad. Además, estudió muchos hechizos mágicos diferentes en Andros,
+                por lo tanto sus habilidades resultaron prodigiosas en el lanzamiento de conjuros. </INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="e007">
+            <INFORMACION>Nex parece ser un ligón ya que se le ve coqueteando con Aisha. También
+                tiene un poco de mal genio y tiende a ponerse nervioso cuando se muestra a alguien
+                que sea más hábil después de él. Y porque él se siente atraído por Aisha, tiende a
+                ser un poco celoso de Roy cuando él la impresionó, y por lo que tiene un poco de
+                angustia en su contra. A pesar de esto, él sabe lo que son sus prioridades y se
+                demuestra que es valiente y cariñoso incluso hacia Roy cuando se vio afectado por
+                los rayos petrificantes. Es bueno pero tambien tiene media actutud arrogante cuando
+                echa carrera con Roy.</INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="e008">
+            <INFORMACION>Roy aparece por primera vez en El Poder de Harmonix, donde él conduce un
+                yate que pueden viajar por cualquier oceano de la Dimensión Mágica, el Explorador
+                Odisea. Así Aisha y las chicas pudieron llegar a Andros. Luego apareció en Las
+                Ostras Relucientes, donde dijo que iba a ir con las chicas, pero Aisha se negó.
+                Luego apareció en la fiesta de Afea con dos bebidas en Las Ostras Relucientes, para
+                compartir con Aisha, pero sus planes cambiaron cuando Stella llevó tres
+                especialistas y Aisha se enojó porque no tenía ganas de bailar.</INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="e009">
+            <INFORMACION>Thoren parece ser un poco celoso de Sky a pesar de que son primos. Pero él
+                tiene un sentido del deber y la justicia, recordó a Sky que también está aquí y
+                listo para pelear con los Árbolants. A pesar de que tiene un resentimiento contra
+                Sky, es gentil, amable y servicial, esto se muestra cuando Daphne estaba tratando de
+                encontrar la debilidad de los arboles y él le asegura que ella será capaz de
+                encontrarlo e incluso encontró un libro para que ella tome una mirada a el.</INFORMACION>
+        </PERSONAJE>
+        
+        <!-- BRUJAS-->
+        <PERSONAJE id="b001">
+            <INFORMACION>Icy es la más poderosa de las Trix y la líder del grupo. Fría como su
+                nombre lo sugiere, controla el hielo. Odia a Bloom y anhela conseguir la llama del
+                dragón que Bloom posee en su interior. Tiene el pelo en una coleta, éste es blanco y
+                siempre va maquillada, al igual que las demás Trix. </INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="b002">
+            <INFORMACION>Darcy es la más oscura de las tres. Es inteligente y reflexiva, del mismo
+                modo que engañosa. Tiene control mental sobre las personas, además de especializarse
+                en la oscuridad y en los efectos ópticos. </INFORMACION>
+        </PERSONAJE>
+        
+        <PERSONAJE id="b003">
+            <INFORMACION>Stormy es la más joven y la más ruda de las tres. Es sumamente sarcástica,
+                impulsiva y destructiva, ella es la hechicera que domina la tormenta, la lluvia y
+                los rayos; sin embargo sabe bailar como lo demuestra en la Temporada 8. Tiene el
+                pelo rizado, corto y morado con mechas rosas. </INFORMACION>
+        </PERSONAJE>
+    </PERSONAJES>
+    
     <CRIATURAS>
         <PIXIES>
             <QUE_SON>Las Pixies son criaturas mágicas que viven en la Dimensión Mágica, son "hadas
@@ -217,59 +461,59 @@
                     <NOMBRE>Concorda</NOMBRE>
                     <GUARDIANA>Es el hada guardiana de la pieza del codex escondida en el archivo
                         magico de Alfea</GUARDIANA>
-                    <IMG>img/concorda.webp</IMG>
+                    <IMG>concorda.webp</IMG>
                 </PIXIE>
                 <PIXIE>
                     <NOMBRE>Atena</NOMBRE>
                     <GUARDIANA>Es el hada guardiana de la pieza del codex escondida en la Cripta del
                         Codex en Fuente Roja</GUARDIANA>
-                    <IMG>img/atena.webp</IMG>
+                    <IMG>atena.webp</IMG>
                 </PIXIE>
                 <PIXIE>
                     <NOMBRE>Discorda</NOMBRE>
                     <GUARDIANA>Es el hada guardiana de la pieza del codex escondida en un torreon de
                         Torre de Nubes</GUARDIANA>
-                    <IMG>img/atena.webp</IMG>
+                    <IMG>atena.webp</IMG>
                 </PIXIE>
                 <PIXIE>
                     <NOMBRE>Ninfea</NOMBRE>
                     <GUARDIANA>Es el hada guardiana de la pieza del codex escondida la cual esta
                         escondida en su baston</GUARDIANA>
-                    <IMG>img/ninfea.webp</IMG>
+                    <IMG>ninfea.webp</IMG>
                 </PIXIE>
             </PIXIES_GUARDIANAS>
             <PIXIE>
                 <NOMBRE>Lockette</NOMBRE>
+                <IMG>Lockette.jpg</IMG>
                 <HABILIDADES>Es la Pixie de los portales, ella usa su bastón mágico para encontrar
                     el camino.</HABILIDADES>
-                <IMG>img/Lockette.jpg</IMG>
             </PIXIE>
             <PIXIE>
                 <NOMBRE>Amore</NOMBRE>
+                <IMG>Amore.jpg</IMG>
                 <HABILIDADES>Es la Pixie del amor, est autiliza un bolsito con polvos magicos
                     capaces de enomorara cualquiera</HABILIDADES>
-                <IMG>img/Amore.jpg</IMG>
             </PIXIE>
             <PIXIE>
                 <NOMBRE>Tune</NOMBRE>
-                <HABILIDADES>Es l aPixie de la buena educacion, </HABILIDADES>
-                <IMG>img/Tune.webp</IMG>
+                <IMG>Tune.webp</IMG>
+                <HABILIDADES>Es la Pixie de la buena educacion</HABILIDADES>
             </PIXIE>
             <PIXIE>
                 <NOMBRE>Chatta</NOMBRE>
+                <IMG>Chatta.jpg</IMG>
                 <HABILIDADES>Es la Pixie de la charla</HABILIDADES>
-                <IMG>img/Chatta.jpg</IMG>
             </PIXIE>
             <PIXIE>
                 <NOMBRE>Digit</NOMBRE>
+                <IMG>Digit.webp</IMG>
                 <HABILIDADES>Es la Pixie de la Nanotecnologia y es capaz de entrar a cualquier
                     ordenador</HABILIDADES>
-                <IMG>img/Digit.webp</IMG>
             </PIXIE>
             <PIXIE>
                 <NOMBRE>Piff</NOMBRE>
+                <IMG>Piff.jpg</IMG>
                 <HABILIDADES>Es la pixie del Sueño y casi siempre la encontraras durmiendo</HABILIDADES>
-                <IMG>img/Piff.jpg</IMG>
             </PIXIE>
         </PIXIES>
         <SELKIES>
@@ -298,60 +542,61 @@
                 <NOMBRE>Lemmy</NOMBRE>
                 <GUARDIANA>Guardiana de el portal de los oceanos de Andros</GUARDIANA>
                 <VINCULACION>Laila de Andros</VINCULACION>
-                <IMG>img/Lemmy.jpg</IMG>
+                <IMG>Lemmy.jpg</IMG>
             </SELKIE>
             <SELKIE>
                 <NOMBRE>Illiris</NOMBRE>
                 <GUARDIANA>Guardiana de el portal de los oceanos de Solaria</GUARDIANA>
                 <VINCULACION>Stella de Solaria</VINCULACION>
-                <IMG>img/Illiris.webp</IMG>
+                <IMG>Illiris.webp</IMG>
             </SELKIE>
             <SELKIE>
                 <NOMBRE>Phylla</NOMBRE>
                 <GUARDIANA>Guardiana de el portal de los oceanos de Tierra</GUARDIANA>
                 <VINCULACION>Roxy de la Tierra</VINCULACION>
-                <IMG>img/Phylla.webp</IMG>
+                <IMG>Phylla.webp</IMG>
             </SELKIE>
             <SELKIE>
                 <NOMBRE>Sonna</NOMBRE>
                 <GUARDIANA>Guardiana de el portal de los oceanos de Melody</GUARDIANA>
                 <VINCULACION>Musa de Melody</VINCULACION>
-                <IMG>img/Sonna.webp</IMG>
+                <IMG>Sonna.webp</IMG>
             </SELKIE>
             <SELKIE>
                 <NOMBRE>Desiryee</NOMBRE>
                 <GUARDIANA>Guardiana de el portal de los oceanos de Linphea</GUARDIANA>
                 <VINCULACION>Flora de Linphea</VINCULACION>
-                <IMG>img/Desiryee.webp</IMG>
+                <IMG>Desiryee.webp</IMG>
             </SELKIE>
             <SELKIE>
                 <NOMBRE>Serena</NOMBRE>
                 <GUARDIANA>Guardiana de el portal de los oceanos de Domino</GUARDIANA>
                 <VINCULACION>Bloom de Domino</VINCULACION>
-                <IMG>img/Serena.webp</IMG>
+                <IMG>Serena.webp</IMG>
             </SELKIE>
             <SELKIE>
                 <NOMBRE>Lithia</NOMBRE>
                 <GUARDIANA>Guardiana de el portal de los oceanos de Zenith</GUARDIANA>
                 <VINCULACION>Tecna de Zenith</VINCULACION>
-                <IMG>img/Lithia.webp</IMG>
+                <IMG>Lithia.webp</IMG>
             </SELKIE>
             <SELKIE>
                 <NOMBRE>Nissa</NOMBRE>
                 <GUARDIANA>Guardiana de el portal de los oceanos de Magix</GUARDIANA>
                 <VINCULACION>Ninguna</VINCULACION>
-                <IMG>img/Nissa.webp</IMG>
+                <IMG>Nissa.webp</IMG>
             </SELKIE>
         </SELKIES>
         <ANIMALES_MAGICOS>
+            <!-- PUEDEN SER DE TIPO MASCOTA, SAVAJE O POR INVOACION Y ADEMAS SU INCLINACION PUEDE
+                 SER MALIGNA, INOFENSIVA O NEUTRAL-->
             <ANIMAL>
                 <NOMBRE>Necrofagos</NOMBRE>
                 <CARACTERISTICAS>Son bastante pequeños, un tipo de color rojo granate, tiene ojos
                     amarillos y tienen cuatro piernas, pero puede ponerse de pie y utilizar las
                     piernas como los brazos. También tienen garras.</CARACTERISTICAS>
-                <TIPO inclinacion="maligna">Salvaje</TIPO><!-- Pueden ser de tipo salvaje, mascota o
-                     por invocacion (maligno, inofensiva y neutral) -->
-                <IMG>img/Necrofagos.webp</IMG>
+                <TIPO inclinacion="maligna">Salvaje</TIPO>
+                <IMG>Necrofagos.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Ogros</NOMBRE>
@@ -359,7 +604,7 @@
                     tienen un buen sentido del olfato, por no hablar de que puedan hablar. Pueden
                     ser tan compasivo como gente normal que denotan su alto nivel de inteligencia.</CARACTERISTICAS>
                 <TIPO inclinacion="inofensiva">Mascotas</TIPO>
-                <IMG>img/Ogros.webp</IMG>
+                <IMG>Ogros.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Cazador Troll</NOMBRE>
@@ -367,7 +612,7 @@
                     nariz y una vez que un troll recoge un olor, él nunca la pierde (excepto si la
                     presa sale del planeta, pero una vez que regrese, el perfume está de vuelta)</CARACTERISTICAS>
                 <TIPO inclinacion="maligna">Salvajes</TIPO>
-                <IMG>img/Cazador_Troll.webp</IMG>
+                <IMG>Cazador_Troll.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Dragones</NOMBRE>
@@ -375,7 +620,7 @@
                     están en los establos de Fuente Roja, tienen varios dragones. Algunos son
                     sensibles.</CARACTERISTICAS>
                 <TIPO inclinacion="neutral">Salvajes</TIPO>
-                <IMG>img/Dragones.webp</IMG>
+                <IMG>Dragones.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Kerborg</NOMBRE>
@@ -384,7 +629,7 @@
                     el fin de distraer a cualquier oponente Darkar puede alterar la forma del
                     Kerborg usando su magia oscura, convirtiéndolo en seres increíblemente poderosos</CARACTERISTICAS>
                 <TIPO inclinacion="maligna">Invocacion</TIPO>
-                <IMG>img/Kerborg.webp</IMG>
+                <IMG>Kerborg.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Sirenas</NOMBRE>
@@ -395,7 +640,7 @@
                     colgajos de piel debajo de los brazos. La sociedad de la sirena se encuentra en
                     el reino de Andros. Las Sirenas tienen voces potentes y la capacidad de volar.</CARACTERISTICAS>
                 <TIPO inclinacion="inofensiva">Salvaje</TIPO>
-                <IMG>img/Sirenix.webp</IMG>
+                <IMG>Sirenix.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Serpiente de Hielo</NOMBRE>
@@ -407,14 +652,14 @@
                     un poco a un dragón chino y al gran dragón. La serpiente de hielo es el guardián
                     principal y la esencia de la Dimensión Omega</CARACTERISTICAS>
                 <TIPO inclinacion="neutral">Salvaje</TIPO>
-                <IMG>img/Serpiente_de_hielo.webp</IMG>
+                <IMG>Serpiente_de_hielo.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Kraken</NOMBRE>
                 <CARACTERISTICAS> El Kraken es una criatura submarina originaria de Andros. Mide mas
                     de 20 metros, es rapido y en su bca se encuentran afilados colmillos</CARACTERISTICAS>
                 <TIPO inclinacion="maligna">Salvaje</TIPO>
-                <IMG>img/Kraken.webp</IMG>
+                <IMG>Kraken.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Criatura del Manto Arcoiris</NOMBRE>
@@ -422,7 +667,7 @@
                     cuando un hada ha demostrado en si misma y lo encuentra, su apariencia cambia y
                     se convierte en un caballo blanco con una larga melena de color arcoiris.</CARACTERISTICAS>
                 <TIPO inclinacion="inofensiva">Salvaje</TIPO>
-                <IMG>img/criatura_del_manto_arcoiris.webp</IMG>
+                <IMG>criatura_del_manto_arcoiris.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Electro-pulpo</NOMBRE>
@@ -432,7 +677,7 @@
                     como si de estrellas se tratara. Este pulpo posee una fuerza inmensa y es capaz
                     de expulsar electricidad atraves de sus ojos</CARACTERISTICAS>
                 <TIPO inclinacion="maligna">Salvaje</TIPO>
-                <IMG>img/electro_pulpo.webp</IMG>
+                <IMG>electro_pulpo.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Devorador</NOMBRE>
@@ -444,7 +689,7 @@
                     débiles. Los Devoradores tienen la apariencia de una barracuda con un tiburón,
                     aunque estos son mas grandes que ambos.</CARACTERISTICAS>
                 <TIPO inclinacion="maligna">Salvaje</TIPO>
-                <IMG>img/Devorador.webp</IMG>
+                <IMG>Devorador.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Ballenas Cantantes</NOMBRE>
@@ -455,7 +700,7 @@
                     las ballenas serán chirridos distorsionados y permiten crear ondas sonícas muy
                     fuertes para repeler adversarios</CARACTERISTICAS>
                 <TIPO inclinacion="inofensiva">Salvaje</TIPO>
-                <IMG>img/ballenas_cantantes.webp</IMG>
+                <IMG>ballenas_cantantes.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Ejército de la oscuridad</NOMBRE>
@@ -465,7 +710,7 @@
                     importante es que por cada monstruo que corte, aparecerá dos más. El monstruo
                     también se puede unir en una bestia</CARACTERISTICAS>
                 <TIPO inclinacion="maligna">Invocacion</TIPO>
-                <IMG>img/Ejército_de_la_oscuridad.webp</IMG>
+                <IMG>Ejército_de_la_oscuridad.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Duendes Pandemonio</NOMBRE>
@@ -473,7 +718,7 @@
                     marrones en forma de un Armadillo. Parecen ser como gargolas mutadas, pero con
                     la aparencia de Duendes</CARACTERISTICAS>
                 <TIPO inclinacion="maligna">Invocacion</TIPO>
-                <IMG>img/Duendes_Pandemonium.webp</IMG>
+                <IMG>Duendes_Pandemonium.webp</IMG>
             </ANIMAL>
             <ANIMAL>
                 <NOMBRE>Yeti</NOMBRE>
@@ -483,7 +728,7 @@
                     con el fin de atacar. Al decir que es una criatura magica tuvo semejanzas a una
                     morsa mutado como un gorila.</CARACTERISTICAS>
                 <TIPO inclinacion="neutral">Salvaje</TIPO>
-                <IMG>img/Yeti.webp</IMG>
+                <IMG>Yeti.webp</IMG>
             </ANIMAL>
         </ANIMALES_MAGICOS>
     </CRIATURAS>
@@ -493,176 +738,285 @@
                 <CARTA id="w001">
                     <NOMBRE>Bloom</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada del fuego del dragón y Princesa de Dominó</DESCRIPCION_PERSONAJE>
-                    <IMG>img/BloomCartajpg.jpg</IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>BloomCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>50</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Bloom</WEB>
                 </CARTA>
                 <CARTA id="w002">
                     <NOMBRE>Estela</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada del Sol y la Luna y Princesa de Solaria</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>EstelaCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>50</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Stella</WEB>
                 </CARTA>
                 <CARTA id="w003">
                     <NOMBRE>Flora</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada de la Naturaleza</DESCRIPCION_PERSONAJE>
-                    <IMG>img/FloraCartajpg.jpg</IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>FloraCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>45</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Flora</WEB>
                 </CARTA>
                 <CARTA id="w004">
                     <NOMBRE>Musa</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada de la Música</DESCRIPCION_PERSONAJE>
-                    <IMG>img/MusaCartajpg.jpg</IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>MusaCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>45</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Musa  </WEB>
                 </CARTA>
                 <CARTA id="w005">
                     <NOMBRE>Tecna</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada de la Tecnología</DESCRIPCION_PERSONAJE>
-                    <IMG>img/TecnaCartajpg.jpg</IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>TecnaCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>30</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Tecna</WEB>
                 </CARTA>
                 <CARTA id="w006">
                     <NOMBRE>Laila</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Hada de los Líquidos y Princesa de Andros</DESCRIPCION_PERSONAJE>
-                    <IMG>img/LailaCartajpg.jpg</IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>LailaCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>50</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Aisha</WEB>
+                </CARTA>
+                <CARTA id="w007">
+                    <NOMBRE>Daphne</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Daphne es la hermana mayor de Bloom, y la hija mayor del Rey y la Reina de Domino.</DESCRIPCION_PERSONAJE>
+                    <IMG>DaphneCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>30</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Daphne</WEB>
                 </CARTA>
             </WINXS>
             <ESPECIALISTAS>
                 <CARTA id="e001">
                     <NOMBRE>Sky</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Príncipe de Eraklyon, es un magnífico guerrero, al igual que el resto de especialistas</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>SkyCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>50</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Sky</WEB>
                 </CARTA>
                 <CARTA id="e002">
-                    <NOMBRE>Brandom</NOMBRE>
+                    <NOMBRE>Brandon</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Es el mejor amigo de Sky desde que son pequeños y un especialista con una gran atracción en las chicas. Es divertido y leal y tiene un humor un tanto irónico, pero es un buen amigo</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO></PRECIO>
+                    <IMG>BrandonCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>50</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Brandon</WEB>
                 </CARTA>
                 <CARTA id="e003">
                     <NOMBRE>Riven</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Es un chico engreído y competitivo aunque a su vez un buen amigo y especialista</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>RivenCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>73</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Riven</WEB>
                 </CARTA>
                 <CARTA id="e004">
                     <NOMBRE>Helia</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Nació en Linphea, al igual que Flora y Krystal. Es el sobrino de Saladino y, después de abandonar Fuente Roja, volvió a ser un especialista con sus amigos. Es un chico sensible, tranquilo, experto en la poesía, la pintura</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>HeliaCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>50</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Helia</WEB>
                 </CARTA>
                 <CARTA id="e005">
                     <NOMBRE>Timmy</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Es el jefe y capitán general en ofensiva y defensiva del equipo. Es el que más sabe de tecnología, es inteligente, intuitivo, tranquilo y tímido</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>TimmyCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>60</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Timmy</WEB>
                 </CARTA>
                 <CARTA id="e006">
                     <NOMBRE>Nabu</NOMBRE>
                     <DESCRIPCION_PERSONAJE> Nabu en realidad es una mago y no es un especialista, pues no estudia en Fuente Roja, pero decidió unirse al equipo para estar con las Winx y, especialmente, con Layla.</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>NabuCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>30</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Nabu</WEB>
+                </CARTA>
+                <CARTA id="e009">
+                    <NOMBRE>Nex</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Nex es un paladin de la escuela de "El colegio volador" ubicado en linphea al igual que Thoren</DESCRIPCION_PERSONAJE>
+                    <IMG>NexCartajpg.jpg</IMG>
+                    <PRECIO>2.55€</PRECIO>
+                    <DESCUENTO>50</DESCUENTO>
+                    <EXISTENCIAS>100</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Nex</WEB>
+                </CARTA>
+                <CARTA id="e008">
+                    <NOMBRE>Roy</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Roy es el piloto del yate "odisea" el cual ayuda a las Winx con la busqueda del Sirenyx</DESCRIPCION_PERSONAJE>
+                    <IMG>RoyCartajpg.jpg</IMG>
+                    <PRECIO>4.55€</PRECIO>
+                    <DESCUENTO>30</DESCUENTO>
+                    <EXISTENCIAS>10</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Roy</WEB>
+                </CARTA>
+                <CARTA id="e007">
+                    <NOMBRE>Thoren</NOMBRE>
+                    <DESCRIPCION_PERSONAJE>Thoren es un paladin de la escuela de "El colegio volador" ubicado en Linphea y es primo de Sky</DESCRIPCION_PERSONAJE>
+                    <IMG>ThorenCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>30</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Thoren</WEB>
                 </CARTA>
             </ESPECIALISTAS>
             <BRUJAS>
                 <CARTA id="b001">
                     <NOMBRE>Icy</NOMBRE>
-                    <DESCRIPCION_PERSONAJE>Una de la sbrujas mas poderosas y su poder es controlar el hielo</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <DESCRIPCION_PERSONAJE>Una de las brujas mas poderosas y su poder es controlar el hielo</DESCRIPCION_PERSONAJE>
+                    <IMG>IcyCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>50</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Icy</WEB>
                 </CARTA>
                 <CARTA id="b002">
                     <NOMBRE>Darcy</NOMBRE>
                     <DESCRIPCION_PERSONAJE>Tiene control mental sobre las personas, además de especializarse en la oscuridad y en los efectos ópticos</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <IMG>DarcyCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO>
+                    <EXISTENCIAS>50</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Darcy</WEB>
                 </CARTA>
                 <CARTA id="b003">
                     <NOMBRE>Stormy</NOMBRE>
-                    <DESCRIPCION_PERSONAJE> Domina la tormenta, la lluvia y los rayos</DESCRIPCION_PERSONAJE>
-                    <IMG></IMG>
-                    <PRECIO>5,99€</PRECIO>
+                    <DESCRIPCION_PERSONAJE>Domina la tormenta, la lluvia y los rayos</DESCRIPCION_PERSONAJE>
+                    <IMG>StormyCartajpg.jpg</IMG>
+                    <PRECIO>5.99€</PRECIO>
+                    <DESCUENTO>10</DESCUENTO><!-- COGEMOS EL VALOR Y SOBREESCRIBIMOS EL PRECIO CON EL DESCUENTO SI ES MAYOR AL 10%-->
+                    <EXISTENCIAS>50</EXISTENCIAS>
+                    <WEB>https://winx.fandom.com/es/wiki/Stormy</WEB>
                 </CARTA>
             </BRUJAS>
         </CARTAS>
         
+        <!-- PUEDE SER DE TIPO ACCESORIO U OBJETO-->
         <OBJETOS_MAGICOS>
             <OBJETO tipo="accesorio">
                 <NOMBRE>Anillo de Solaria</NOMBRE>
-                <IMG>img/Anillo_de_Solaria.webp</IMG>
+                <IMG>Anillo_de_Solaria.webp</IMG>
                 <DESCRIPCION>El Anillo de Solaria es un anillo mágico que pertenece a Stella. Se
                     puede convertir en un cetro que Stella suele utilizar para ayudar a lanzar
                     hechizos, o teletransportarse a sí misma y a otras personas a un lugar
                     determinado. De acuerdo con Stella, el anillo es de 6,1 magia pura.</DESCRIPCION>
                 <PRECIO>10€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>27</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/Anillo_de_Solaria</WEB>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Codex</NOMBRE>
-                <IMG>img/Codex.webp</IMG>
+                <IMG>Codex.webp</IMG>
                 <DESCRIPCION>Para abrir el portal al reino de Realix, las cuatro piezas del Codex
                     deben ser reunidas y un hechizo tiene que ser utilizado. El equilibrio entre la
                     Luz y la Oscuridad se deben respetar para abrir el portal y para obtener el
                     poder definitivo del Reino de Realix, tiene que tener la Llama del dragón y el
                     poder del fénix. Lord Darkar secuestró a Bloom y la convierte en su versión
                     oscura con el propósito de entrar a Realix uniendo las piezas del codex.</DESCRIPCION>
-                <PRECIO>2,50€</PRECIO>
+                <PRECIO>2.50€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>40</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/Codex</WEB>
             </OBJETO>
             <OBJETO tipo="accesorio">
                 <NOMBRE>Máscara de Daphne</NOMBRE>
-                <IMG>img/Máscara_de_Daphne.jpg</IMG>
+                <IMG>Máscara_de_Daphne.jpg</IMG>
                 <DESCRIPCION>La Máscara de Daphne es un objeto mágico especial de Daphne. Ella la
                     uso cuando no poseía su forma física. Al parecer, gracias a ella, se mantiene en
                     su posición sin ningún apego, posiblemente por arte de magia.</DESCRIPCION>
-                <PRECIO>15,99€</PRECIO>
+                <PRECIO>15.99€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>15</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/M%C3%A1scara_de_Daphne</WEB>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Círculo Negro</NOMBRE>
-                <IMG>img/Círculo_Negro.webp</IMG>
+                <IMG>Círculo_Negro.webp</IMG>
                 <DESCRIPCION>El Círculo Negro es un objeto mágico creado por los Hechiceros del
                     Círculo Negro, como una manera de luchar contra el poder de las hadas.</DESCRIPCION>
-                <PRECIO>5,87€</PRECIO>
+                <PRECIO>5.87€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>30</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/C%C3%ADrculo_Negro</WEB>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Círculo Blanco</NOMBRE>
-                <IMG>img/Circulo_Blanco.webp</IMG>
+                <IMG>Circulo_Blanco.webp</IMG>
                 <DESCRIPCION>Se trata de un anillo mágico de color blanco que actúa como un portal
                     al reino de Tir Nan Og, donde las hadas de la Tierra fueron encarceladas.</DESCRIPCION>
-                <PRECIO>5,87€</PRECIO>
+                <PRECIO>5.87€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>27</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/C%C3%ADrculo_Blanco</WEB>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Cajas Sirenix</NOMBRE>
-                <IMG>img/Cajas_Sirenix.webp</IMG>
+                <IMG>Cajas_Sirenix.webp</IMG>
                 <DESCRIPCION>Se trata de varias cajas que cada una de las Winx ganan a lo largo de
                     la temporada en su búsqueda para ganar el poder Sirenix.</DESCRIPCION>
                 <PRECIO>12€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>27</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/Cajas_Sirenix</WEB>
             </OBJETO>
             <OBJETO tipo="accesorio">
                 <NOMBRE>Gema de Coral</NOMBRE>
-                <IMG>img/Gema_de_Coral.webp</IMG>
+                <IMG>Gema_de_Coral.webp</IMG>
                 <DESCRIPCION>Es una joya montada en el bastón de la Reina Ligea. Tiene el poder de
                     otorgar hechizos de curación siempre que pueda capturar los últimos rayos del
                     crepúsculo.</DESCRIPCION>
-                <PRECIO>11,50€</PRECIO>
+                <PRECIO>11.50€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>45</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/Gema_de_Coral</WEB>
             </OBJETO>
             <OBJETO tipo="accesorio">
                 <NOMBRE>Bastón de Nabu</NOMBRE>
-                <IMG>img/Bastón_de_Nabu.jpg</IMG>
+                <IMG>Bastón_de_Nabu.jpg</IMG>
                 <DESCRIPCION>Es una larga vara de oro con una joya púrpura en la parte superior. Él
                     lo utiliza para ayudarse a sí mismo para lanzar hechizos, pero también lo puede
                     utilizar para fines de combate.</DESCRIPCION>
-                <PRECIO>5,70€</PRECIO>
+                <PRECIO>5.70€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>2</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/Bast%C3%B3n_de_Nabu</WEB>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Cofre Agador</NOMBRE>
-                <IMG>img/Cofre_Agador.webp</IMG>
+                <IMG>Cofre_Agador.webp</IMG>
                 <DESCRIPCION>Es una caja mágica que tiene el poder de contener cualquier hechizo o
                     forma de magia colocada en ella.</DESCRIPCION>
-                <PRECIO>9,99€</PRECIO>
+                <PRECIO>9.99€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>23</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/Cofre_Agador</WEB>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Estrellas de agua</NOMBRE>
-                <IMG>img/Estrellas_de_Agua.webp</IMG>
+                <IMG>Estrellas_de_Agua.webp</IMG>
                 <DESCRIPCION>Las Estrellas de agua fueron creados al mismo tiempo donde nació el
                     todopoderoso Gran Dragón. Debido a que su energía mágica era infinitamente
                     ilimitada y el poder es el opuesto natural de la llama del Dragón, que no pueden
@@ -672,17 +1026,24 @@
                     poderosos magos antiguos se reunieron a fin de reunirlos y les sellada. Las
                     Estrellas de agua se han mantenido en el Reino de Oro desde entonces, donde
                     fueron custodiados por Arcadia, siendo una hada en existencia.</DESCRIPCION>
-                <PRECIO>15,98€</PRECIO>
+                <PRECIO>15.98€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>25</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/Estrellas_de_agua</WEB>
             </OBJETO>
             <OBJETO tipo="objeto">
                 <NOMBRE>Libro Sirenix</NOMBRE>
-                <IMG>img/Libro_sirenix.webp</IMG>
+                <IMG>Libro_sirenix.webp</IMG>
                 <DESCRIPCION>El libro se encontraba oculto entre los muchos otros libros del archivo
                     magico de la biblioteca de Alfea. Daphne lo utilizo hace tiempo para obtener el
                     Sirenix y luego le dijo a las Winx donde encontrarlo.</DESCRIPCION>
                 <PRECIO>20€</PRECIO>
+                <DESCUENTO>10</DESCUENTO>
+                <EXISTENCIAS>27</EXISTENCIAS>
+                <WEB>https://winx.fandom.com/es/wiki/Libro_Sirenix</WEB>
             </OBJETO>
         </OBJETOS_MAGICOS>
+        <EXISTENCIAS_TOTALES></EXISTENCIAS_TOTALES>
     </PRODUCTOS>
     
     <VESTUARIOS>
@@ -693,8 +1054,11 @@
                 cuando están en forma civil, y pueden volar, así como usar hechizos muy poderosos.
                 Un hada generalmente es primero capaz de transformarse cuando ella gana suficiente
                 fuerza de voluntad y cree plenamente en su magia y habilidades</DESCRIPCION>
-            <IMG>img/Magic_Winx.webp</IMG>
-            <PRECIO>6,89€</PRECIO>
+            <IMG>Magic_Winx.webp</IMG>
+            <PRECIO>6.89€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>50</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Magic_Winx</WEB>
         </ROPA>
         <ROPA>
             <NOMBRE>Charmix</NOMBRE>
@@ -705,8 +1069,11 @@
                 
                 Sin embargo, puede quedarse sin energía y el hada o éstas resulten más débiles o no
                 puede utilizar ningún tipo de magia</DESCRIPCION>
-            <IMG>img/Charmix.webp</IMG>
+            <IMG>Charmix.webp</IMG>
             <PRECIO>5€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>2</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Charmix</WEB>
         </ROPA>
         <ROPA>
             <NOMBRE>Enchantix</NOMBRE>
@@ -718,8 +1085,11 @@
                 propio planeta o por la fuerza de voluntad en el caso de Bloom. Sin embargo, un
                 Enchantix obtenido de esta forma es incompleto y el hada no puede usar sus poderes
                 de miniaturización por lo que puede perder fácilmente el control.</DESCRIPCION>
-            <IMG>img/Enchantix.webp</IMG>
-            <PRECIO>10,98€</PRECIO>
+            <IMG>Enchantix.webp</IMG>
+            <PRECIO>10.98€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>29</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Enchantix</WEB>
         </ROPA>
         <ROPA>
             <NOMBRE>Believix</NOMBRE>
@@ -734,8 +1104,11 @@
                 
                 Se gana por un hada cuando convence a alguien que no cree en la magia para empezar a
                 creer en él</DESCRIPCION>
-            <IMG>img/Believix.jpg</IMG>
+            <IMG>Believix.jpg</IMG>
             <PRECIO>12€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>34</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Believix</WEB>
         </ROPA>
         <ROPA>
             <NOMBRE>Shopix</NOMBRE>
@@ -743,8 +1116,11 @@
                 a sí mismos a los poderes de la naturaleza, y para estar en contacto con ella. Es un
                 sub-transformación de Believix y se utiliza cuando las Winx tuvieron que hacer
                 frente a Diana, el hada mayor de la Naturaleza.</DESCRIPCION>
-            <IMG>img/Shopix.webp</IMG>
+            <IMG>Shopix.webp</IMG>
             <PRECIO>12€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>46</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Sophix</WEB>
         </ROPA>
         <ROPA>
             <NOMBRE>Lovix</NOMBRE>
@@ -752,16 +1128,22 @@
                 Hadas se protejan del frío, así como el uso de los poderes de hielo. Es otra
                 sub-transformación de Believix y se utiliza cuando las Winx tratan de detener a
                 Aurora, la Mayor de hada del polo Norte</DESCRIPCION>
-            <IMG>img/Lovix.webp</IMG>
+            <IMG>Lovix.webp</IMG>
             <PRECIO>12€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>46</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Lovix</WEB>
         </ROPA>
         <ROPA>
             <NOMBRE>Harmonix</NOMBRE>
             <DESCRIPCION>Los Guardianes Sirenix tienen el poder de dar u otorgar este poder de las
                 hadas. Se administra a las Winx para ayudarlas en su búsqueda del Sirenix, así como
                 mejorar sus competencias y son capaces de usarlos bajo el agua</DESCRIPCION>
-            <IMG>img/Harmonix.webp</IMG>
+            <IMG>Harmonix.webp</IMG>
             <PRECIO>15€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>35</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Harmonix</WEB>
         </ROPA>
         <ROPA>
             <NOMBRE>Sirenix</NOMBRE>
@@ -770,8 +1152,11 @@
                 fuertes como para luchar con Tritannus y Trix, porque sus poderes Believix son
                 inmunes con el agua. Las Trix también han ganado un semejante poder llamado Sirenix
                 Oscuro.</DESCRIPCION>
-            <IMG>img/Sirenix.webp</IMG>
-            <PRECIO>15,90€</PRECIO>
+            <IMG>Sirenix.webp</IMG>
+            <PRECIO>15.90€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>40</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Sirenix</WEB>
         </ROPA>
         <ROPA>
             <NOMBRE>Bloomix</NOMBRE>
@@ -779,8 +1164,11 @@
                 a las Winx, que necesitan para llevar a cabo una buena acción digna para ganar esta
                 transformación. Ayuda a la lucha contra las criaturas invocadas desde el Legendarium
                 durante su búsqueda de encontrar a Eldora para cerrar el Legendarium.</DESCRIPCION>
-            <IMG>img/Bloomix.webp</IMG>
+            <IMG>Bloomix.webp</IMG>
             <PRECIO>11€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>45</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Bloomix</WEB>
         </ROPA>
         <ROPA>
             <NOMBRE>Mythix</NOMBRE>
@@ -789,8 +1177,12 @@
                 poder cerrar el libro. Aun así teniendo esta transformación, en el mundo real se
                 habilita el Bloomix significando que el Mythix solamente funciona para luchar en el
                 Mundo del Legendarium.</DESCRIPCION>
-            <IMG>img/Mythix.webp</IMG>
-            <PRECIO>10,77€</PRECIO>
+            <IMG>Mythix.webp</IMG>
+            <PRECIO>10.77€</PRECIO>
+            <DESCUENTO>10</DESCUENTO>
+            <EXISTENCIAS>57</EXISTENCIAS>
+            <WEB>https://winx.fandom.com/es/wiki/Mythix</WEB>
         </ROPA>
+        <EXISTENCIAS_TOTALES></EXISTENCIAS_TOTALES>
     </VESTUARIOS>
 </COLECCION>

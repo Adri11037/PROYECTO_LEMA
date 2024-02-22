@@ -3387,7 +3387,7 @@ body {
 #header .logo img {
 	width: 135px;
 	margin-top: 5px;
-	transition: all 300ms;
+	transition: all 300ms !important; 
 }
 
 #header .logo img:hover {
@@ -3398,7 +3398,7 @@ body {
 	-moz-transition: color 0.2s ease-in-out;
 	-webkit-transition: color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out !important;
 	display: inline-block;
 	padding: 0 2em;
 	color: #e7398d;
@@ -3750,6 +3750,30 @@ body {
 	z-index: 10000;
 	line-height: 1.5;
 }
+
+.titulo_catalogo {
+	text-align: center;
+	font-weight: bold;
+	background-color: #ffc0cbab;
+}
+
+.titulo_carta {
+	font-weight: bold;
+}
+
+.texto {
+	max-height: 175px;
+	overflow-y: scroll;
+}
+
+td .carta {
+	transition: all  ease-in 300ms !important;
+}
+
+.carta:hover {
+	scale: 1.1;
+}
+/*Media Queries*/
 
 @media screen and (max-width: 480px) {
 

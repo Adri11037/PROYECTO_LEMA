@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="COLECCION">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="INTRODUCCION" type="xs:string" />
+                <xs:element name="DESCRIPCION_SERIE" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="PARRAFO" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="LOGO" />
+                <xs:element name="IVA" type="xs:integer" fixed="21"/>
+                <xs:element name="TEMPORADAS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="TEMPORADA" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="NOMBRE" type="xs:string" />
+                                        <xs:element name="TRAMA" >
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:maxLength value="10000"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="VILLANOS" type="xs:string" />
+                                        <xs:element name="TRANSFORMACIONES">
+                                            <xs:complexType>
+                                                <xs:sequence minOccurs="0">
+                                                    <xs:element name="TRANSFORMACION_PRINCIPAL"
+                                                        minOccurs="0" type="xs:string" />
+                                                    <xs:element name="SUB-TRANSFORMACIONES"
+                                                        minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="TRANSFORMACION"
+                                                                    maxOccurs="unbounded"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="TRANSFORMACION_INICIAL"
+                                                        minOccurs="0" type="xs:string" />
+                                                    <xs:element name="TRANSFORMACION_FINAL"
+                                                        minOccurs="0" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="IMAGEN" type="xs:string" />
+                                        <xs:element name="DVD" type="xs:string" />
+                                        <xs:element name="PRECIO">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string"> <!-- para este xs:pattern tuve que buscar bastante porque no me dejaba poner los valores a mi conveniencia-->
+                                                    <xs:pattern value="\d+(\.\d{1,2})?€"></xs:pattern> <!-- \d+: Coincide con uno o más dígitos.     (\.\d{1,2})?: Un grupo opcional que comienza con un punto seguido de uno o dos dígitos decimales.    €: Coincide con el símbolo de euro al final-->
+                                                    <xs:maxLength value="10"></xs:maxLength>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="DESCUENTO">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:maxInclusive value="50.00" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="EXISTENCIAS" type="xs:integer" />
+                                        <xs:element name="WEB" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="EXISTENCIAS_TOTALES" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="PERSONAJES"><!-- CAMBIOS AGREGADOS DESPUES DE LA AUTOGENERACION /
+                    Informacion que hace referencia a las cartas-->
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="PERSONAJE" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="INFORMACION" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:IDREF" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element><!--
+                FIN CAMBIOS AGREGADOS DESPUES DE LA AUTOGENERACION-->
+                <xs:element name="CRIATURAS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="PIXIES">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="QUE_SON" type="xs:string" />
+                                        <xs:element name="PIXIES_GUARDIANAS">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="PIXIE" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="NOMBRE"
+                                                                    type="xs:string" />
+                                                                <xs:element name="GUARDIANA"
+                                                                    type="xs:string" />
+                                                                <xs:element name="IMG"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="PIXIE" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="NOMBRE" type="xs:string" />
+                                                    <xs:element name="IMG" type="xs:string" />
+                                                    <xs:element name="HABILIDADES" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="SELKIES">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="DESCRIPCION" type="xs:string" />
+                                        <xs:element name="QUE_SON" type="xs:string" />
+                                        <xs:element name="SELKIE" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="NOMBRE" type="xs:string" />
+                                                    <xs:element name="GUARDIANA" type="xs:string" />
+                                                    <xs:element name="VINCULACION" type="xs:string" />
+                                                    <xs:element name="IMG" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="ANIMALES_MAGICOS">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ANIMAL" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="NOMBRE" type="xs:string" />
+                                                    <xs:element name="CARACTERISTICAS"
+                                                        type="xs:string" />
+                                                    <xs:element name="TIPO">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="inclinacion"
+                                                                        use="required">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction
+                                                                                base="xs:string">
+                                                                                <xs:enumeration
+                                                                                    value="inofensiva" />
+                                                                                <xs:enumeration
+                                                                                    value="maligna" />
+                                                                                <xs:enumeration
+                                                                                    value="neutral" />
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="IMG" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="PRODUCTOS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CARTAS">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="WINXS">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="CARTA" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="NOMBRE"
+                                                                    type="xs:string" />
+                                                                <xs:element
+                                                                    name="DESCRIPCION_PERSONAJE"
+                                                                    type="xs:string" />
+                                                                <xs:element name="IMG"
+                                                                    type="xs:string" />
+                                                                <xs:element name="PRECIO">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:string"> <!-- para este xs:pattern tuve que buscar bastante porque no me dejaba poner los valores a mi conveniencia-->
+                                                                            <xs:pattern value="\d+(\.\d{1,2})?€"></xs:pattern> <!-- \d+: Coincide con uno o más dígitos.     (\.\d{1,2})?: Un grupo opcional que comienza con un punto seguido de uno o dos dígitos decimales.    €: Coincide con el símbolo de euro al final-->
+                                                                            <xs:maxLength value="10"></xs:maxLength>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                                <xs:element name="DESCUENTO">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction
+                                                                            base="xs:decimal">
+                                                                            <xs:maxInclusive
+                                                                                value="50.00" />
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                                <xs:element name="EXISTENCIAS"
+                                                                    type="xs:integer" />
+                                                                <xs:element name="WEB" type="xs:string" />
+                                                            </xs:sequence>
+                                                            <xs:attribute name="id" type="xs:ID"
+                                                                use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="ESPECIALISTAS">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="CARTA" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="NOMBRE"
+                                                                    type="xs:string" />
+                                                                <xs:element
+                                                                    name="DESCRIPCION_PERSONAJE"
+                                                                    type="xs:string" />
+                                                                <xs:element name="IMG" />
+                                                                <xs:element name="PRECIO">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:string"> <!-- para este xs:pattern tuve que buscar bastante porque no me dejaba poner los valores a mi conveniencia-->
+                                                                            <xs:pattern value="\d+(\.\d{1,2})?€"></xs:pattern> <!-- \d+: Coincide con uno o más dígitos.     (\.\d{1,2})?: Un grupo opcional que comienza con un punto seguido de uno o dos dígitos decimales.    €: Coincide con el símbolo de euro al final-->
+                                                                            <xs:maxLength value="10"></xs:maxLength>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                                <xs:element name="DESCUENTO">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction
+                                                                            base="xs:decimal">
+                                                                            <xs:maxInclusive
+                                                                                value="50.00" />
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                                <xs:element name="EXISTENCIAS"
+                                                                    type="xs:integer" />
+                                                                <xs:element name="WEB" type="xs:string" />
+                                                            </xs:sequence>
+                                                            <xs:attribute name="id" type="xs:ID"
+                                                                use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="BRUJAS">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="CARTA" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="NOMBRE"
+                                                                    type="xs:string" />
+                                                                <xs:element
+                                                                    name="DESCRIPCION_PERSONAJE"
+                                                                    type="xs:string" />
+                                                                <xs:element name="IMG" />
+                                                                <xs:element name="PRECIO">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:string"> <!-- para este xs:pattern tuve que buscar bastante porque no me dejaba poner los valores a mi conveniencia-->
+                                                                            <xs:pattern value="\d+(\.\d{1,2})?€"></xs:pattern> <!-- \d+: Coincide con uno o más dígitos.     (\.\d{1,2})?: Un grupo opcional que comienza con un punto seguido de uno o dos dígitos decimales.    €: Coincide con el símbolo de euro al final-->
+                                                                            <xs:maxLength value="10"></xs:maxLength>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                                <xs:element name="DESCUENTO">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction
+                                                                            base="xs:decimal">
+                                                                            <xs:maxInclusive
+                                                                                value="50.00" />
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                                <xs:element name="EXISTENCIAS"
+                                                                    type="xs:integer" />
+                                                                    <xs:element name="WEB" type="xs:string" />
+                                                            </xs:sequence>
+                                                            <xs:attribute name="id" type="xs:ID"
+                                                                use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="OBJETOS_MAGICOS">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="OBJETO" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="NOMBRE" type="xs:string" />
+                                                    <xs:element name="IMG" type="xs:string" />
+                                                    <xs:element name="DESCRIPCION" type="xs:string" />
+                                                    <xs:element name="PRECIO">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string"> <!-- para este xs:pattern tuve que buscar bastante porque no me dejaba poner los valores a mi conveniencia-->
+                                                                <xs:pattern value="\d+(\.\d{1,2})?€"></xs:pattern> <!-- \d+: Coincide con uno o más dígitos.     (\.\d{1,2})?: Un grupo opcional que comienza con un punto seguido de uno o dos dígitos decimales.    €: Coincide con el símbolo de euro al final-->
+                                                                <xs:maxLength value="10"></xs:maxLength>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="DESCUENTO">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:decimal">
+                                                                <xs:maxInclusive value="50.00" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="EXISTENCIAS" type="xs:integer" />
+                                                    <xs:element name="WEB" type="xs:string" />
+                                                </xs:sequence>
+                                                <xs:attribute name="tipo" use="required">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:enumeration value="accesorio" />
+                                                            <xs:enumeration value="objeto" />
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="EXISTENCIAS_TOTALES" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="VESTUARIOS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ROPA" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="NOMBRE" type="xs:string" />
+                                        <xs:element name="DESCRIPCION" type="xs:string" />
+                                        <xs:element name="IMG" type="xs:string" />
+                                        <xs:element name="PRECIO">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string"> <!-- para este xs:pattern tuve que buscar bastante porque no me dejaba poner los valores a mi conveniencia-->
+                                                    <xs:pattern value="\d+(\.\d{1,2})?€"></xs:pattern> <!-- \d+: Coincide con uno o más dígitos.     (\.\d{1,2})?: Un grupo opcional que comienza con un punto seguido de uno o dos dígitos decimales.    €: Coincide con el símbolo de euro al final-->
+                                                    <xs:maxLength value="10"></xs:maxLength>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="DESCUENTO">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:maxInclusive value="50.00" />
+                                                    <xs:minInclusive value="5.00"></xs:minInclusive>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="EXISTENCIAS" type="xs:integer" />
+                                        <xs:element name="WEB" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="EXISTENCIAS_TOTALES" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

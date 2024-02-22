@@ -9,11 +9,6 @@
 	version="3.0">
 	
 	<xsl:template match="/">
-		<!DOCTYPE HTML>
-		<!--
-							Base de la plantilla creada por TEMPLATED y adapatada para la realización del
-							Proyecto dirigido a la validación, formateo y transformación de documentos XML
-		-->
 		<html lang="es">
 			
 			<head>
@@ -27,22 +22,11 @@
 			<body>
 				
 				<!-- Header -->
-				<header id="header">
-					<div class="inner">
-						<a href="#" class="logo"><img src="../images/logoWinx.png" alt="logo"/></a>
-						<nav id="nav">
-							<a href="../index.html">Página Principal</a>
-							<a href="catalogo_1.html">Coleccion</a>
-							<a href="catalogo_2.html">La serie</a>
-							<a href="contacto.html">Contacto</a>
-						</nav>
-					</div>
-				</header>
-				<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				
 				<!-- Main -->
 				<section id="main">
 					<div class="inner">
+					<xsl:variable name="IVA"  select="//IVA * 0.01"/>
 						<header>
 							<h1>Catálogo de Productos o servicios (tabla)</h1>
 						</header>
@@ -57,32 +41,49 @@
 									</tr>
 								</thead>
 								<tbody>
+									<tr>
+										<td colspan="4" class="titulo_catalogo">Winx</td>
+									</tr>
+									<xsl:for-each select="//WINXS/CARTA">
+									<xsl:variable select="IMG" name="imagen"/>
+										
+										<tr >
+											<td><a target="_blank" href="../images/{$imagen}"><img class="carta" src="../images/{$imagen}" alt="Carta" width="200" height="300"/></a></td>
+											<td class="titulo_carta"><xsl:value-of select="NOMBRE"/></td>
+											<td><xsl:value-of select="DESCRIPCION_PERSONAJE"/></td>
+											<td><xsl:value-of select="PRECIO"/></td>
+										</tr>
+									</xsl:for-each>
 									
 									<tr>
-										<td><img src="../images/MusaCarta.jpg" alt="producto 1" width="100" height="100"/></td>
-										<td>Mmmmmmayonesa</td>
-										<td>Descripción del producto 1:
-											<ul>
-												<li>Dolor pulvinar etiam magna etiam.</li>
-												<li>Sagittis adipiscing lorem eleifend.</li>
-												<li>Felis enim feugiat dolore viverra.</li>
-											</ul>
-											
-										</td>
-										<td>nose vende</td>
+										<td colspan="4" class="titulo_catalogo">Especialistas</td>
 									</tr>
+									
+									<xsl:for-each select="//ESPECIALISTAS/CARTA">
+										
+										<tr>
+											<xsl:variable name="imagen" select="IMG"/>
+											<td><a target="_blank" href="../images/{$imagen}"><img class="carta" src="../images/{$imagen}" alt="Carta" width="200" height="300"/></a></td>
+											<td class="titulo_carta"><xsl:value-of select="NOMBRE"/></td>
+											<td><xsl:value-of select="DESCRIPCION_PERSONAJE"/></td>
+											<td><xsl:value-of select="PRECIO"/></td>
+										</tr>
+									</xsl:for-each>
+
 									<tr>
-										<td><img src="../images/patas.jpg" alt="producto 2" width="100" height="100"/></td>
-										<td>mmmmmmmm patas</td>
-										<td>Descripción del producto 2:
-											<ul>
-												<li>Dolor pulvinar etiam magna etiam.</li>
-												<li>Sagittis adipiscing lorem eleifend.</li>
-												<li>Felis enim feugiat dolore viverra.</li>
-											</ul>
-										</td>
-										<td>22.22$</td>
+										<td colspan="4" class="titulo_catalogo">Trix</td>
 									</tr>
+									
+									<xsl:for-each select="//BRUJAS/CARTA">
+										
+										<tr>
+											<xsl:variable name="imagen" select="IMG"/>
+											<td><a target="_blank" href="../images/{$imagen}"><img class="carta" src="../images/{$imagen}" alt="Carta" width="200" height="300"/></a></td>
+											<td class="titulo_carta"><xsl:value-of select="NOMBRE"/></td>
+											<td><xsl:value-of select="DESCRIPCION_PERSONAJE"/></td>
+											<td><xsl:value-of select="PRECIO"/></td>
+										</tr>
+									</xsl:for-each>
 								</tbody>
 								<tfoot>
 									<tr>
@@ -98,7 +99,7 @@
 				<footer id="footer">
 					<div class="inner">
 						<div class="copyright">
-							&copy; 202X Integrantes del grupo
+							©Ariannet	- 	Andoni 	- 	Adriana 2024
 							<ul class="icons">
 								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -107,7 +108,7 @@
 								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 								<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
 							</ul>
-							Datos de la empresa o asosciación
+							WinxClub™
 						</div>
 					</div>
 				</footer>
