@@ -26,9 +26,10 @@
 				<!-- Main -->
 				<section id="main">
 					<div class="inner">
-					<xsl:variable name="IVA"  select="//IVA * 0.01"/>
+						<xsl:variable name="IVA"  select="//IVA div 100"/>
+						
 						<header>
-							<h1>Catálogo de Productos o servicios (tabla)</h1>
+							<h1>Productos</h1>
 						</header>
 						<div class="table-wrapper">
 							<table>
@@ -38,56 +39,151 @@
 										<th>Nombre</th>
 										<th>Descripción</th>
 										<th>Precio</th>
+										<th>Precio iva</th>
+										<th>Descuento</th>
+										<th>Precio descuento</th>
+										<th>Existencias</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td colspan="4" class="titulo_catalogo">Winx</td>
+										<td colspan="7" class="titulo_catalogo"> Cartas Winx</td>
+										<td>Existencias Cartas: <xsl:value-of select="sum(//WINXS/CARTA/EXISTENCIAS)"/></td>
 									</tr>
 									<xsl:for-each select="//WINXS/CARTA">
-									<xsl:variable select="IMG" name="imagen"/>
+										<xsl:variable select="IMG" name="imagen"/>
 										
 										<tr >
 											<td><a target="_blank" href="../images/{$imagen}"><img class="carta" src="../images/{$imagen}" alt="Carta" width="200" height="300"/></a></td>
-											<td class="titulo_carta"><xsl:value-of select="NOMBRE"/></td>
+											<td><a href="{WEB}" target="_blank" class="titulo_carta"><xsl:value-of select="NOMBRE"/></a></td>
 											<td><xsl:value-of select="DESCRIPCION_PERSONAJE"/></td>
 											<td><xsl:value-of select="PRECIO"/></td>
+											<td>
+												<span>
+													<xsl:value-of select="PRECIO * $IVA + PRECIO"/>
+												</span>
+											</td>
+											<td><xsl:value-of select="DESCUENTO"/>%
+											</td>
+											<td>
+												<xsl:value-of select="DESCUENTO * PRECIO div 100"/>€	
+											</td>
+											<td><xsl:value-of select="EXISTENCIAS"/> uds</td>
 										</tr>
 									</xsl:for-each>
 									
 									<tr>
-										<td colspan="4" class="titulo_catalogo">Especialistas</td>
+										<td colspan="7" class="titulo_catalogo"> Cartas Especialistas</td>
+										<td>Existencias Cartas: <xsl:value-of select="sum(//ESPECIALISTAS/CARTA/EXISTENCIAS)"/></td>
 									</tr>
 									
 									<xsl:for-each select="//ESPECIALISTAS/CARTA">
-										
 										<tr>
 											<xsl:variable name="imagen" select="IMG"/>
 											<td><a target="_blank" href="../images/{$imagen}"><img class="carta" src="../images/{$imagen}" alt="Carta" width="200" height="300"/></a></td>
-											<td class="titulo_carta"><xsl:value-of select="NOMBRE"/></td>
+											<td><a href="{WEB}" target="_blank" class="titulo_carta"><xsl:value-of select="NOMBRE"/></a></td>
 											<td><xsl:value-of select="DESCRIPCION_PERSONAJE"/></td>
 											<td><xsl:value-of select="PRECIO"/></td>
+											<td>
+												<span>
+													<xsl:value-of select="PRECIO * $IVA + PRECIO"/>
+												</span>
+											</td>
+											
+											<td><xsl:value-of select="DESCUENTO"/>%
+											</td>
+											<td>
+												<xsl:value-of select="DESCUENTO * PRECIO div 100"/>€	
+											</td>
+											<td><xsl:value-of select="EXISTENCIAS"/> uds</td>
 										</tr>
 									</xsl:for-each>
-
+									
 									<tr>
-										<td colspan="4" class="titulo_catalogo">Trix</td>
-									</tr>
+										<td colspan="7" class="titulo_catalogo">Cartas Trix</td>
+										<td>Existencias Cartas: <xsl:value-of select="sum(//BRUJAS/CARTA/EXISTENCIAS)"/></td>
+									</tr> 
 									
 									<xsl:for-each select="//BRUJAS/CARTA">
 										
 										<tr>
 											<xsl:variable name="imagen" select="IMG"/>
 											<td><a target="_blank" href="../images/{$imagen}"><img class="carta" src="../images/{$imagen}" alt="Carta" width="200" height="300"/></a></td>
-											<td class="titulo_carta"><xsl:value-of select="NOMBRE"/></td>
+											<td><a href="{WEB}" target="_blank" class="titulo_carta"><xsl:value-of select="NOMBRE"/></a></td>
 											<td><xsl:value-of select="DESCRIPCION_PERSONAJE"/></td>
 											<td><xsl:value-of select="PRECIO"/></td>
+											<td>
+												<span>
+													<xsl:value-of select="PRECIO * $IVA + PRECIO"/>
+												</span>
+											</td>
+											<td><xsl:value-of select="DESCUENTO"/>%
+											</td>
+											<td>
+												<xsl:value-of select="DESCUENTO * PRECIO div 100"/>€	
+											</td>
+											
+											<td><xsl:value-of select="EXISTENCIAS"/> uds</td>
+										</tr>
+									</xsl:for-each>
+									<tr>
+										<td colspan="7" class="titulo_catalogo">Objetos Mágicos</td>
+										<td>Existencias objetos:<xsl:value-of select="sum(//OBJETOS_MAGICOS/OBJETO/EXISTENCIAS)"/></td>
+									</tr>
+									
+									<xsl:for-each select="//OBJETOS_MAGICOS/OBJETO">
+										
+										<tr>
+											<xsl:variable name="imagen" select="IMG"/>
+											<td><a target="_blank" href="../images/{$imagen}"><img class="carta" src="../images/{$imagen}" alt="Carta" width="200" height="300"/></a></td>
+											<td><a href="{WEB}" target="_blank" class="titulo_carta"><xsl:value-of select="NOMBRE"/></a></td>
+											<td><xsl:value-of select="DESCRIPCION"/></td>
+											<td><xsl:value-of select="PRECIO"/></td>
+											<td>
+												<span>
+													<xsl:value-of select="PRECIO * $IVA + PRECIO"/>
+												</span>
+											</td>
+											<td><xsl:value-of select="DESCUENTO"/>%
+											</td>
+											<td>
+												<xsl:value-of select="DESCUENTO * PRECIO div 100"/>€	
+											</td>
+											<td><xsl:value-of select="EXISTENCIAS"/> uds</td>
+										</tr>
+									</xsl:for-each>
+									<tr>
+										<td colspan="7" class="titulo_catalogo">Vestuarios</td>
+										<td>Existencias vestuarios: <xsl:value-of select="sum(//VESTUARIOS/ROPA/EXISTENCIAS)"/></td>
+									</tr>
+									
+									<xsl:for-each select="//VESTUARIOS/ROPA">
+										<tr>
+											<xsl:variable name="imagen" select="IMG"/>
+											<td><a target="_blank" href="../images/{$imagen}"><img class="carta" src="../images/{$imagen}" alt="Carta" width="200" height="300"/></a></td>
+											<td><a href="{WEB}" target="_blank" class="titulo_carta"><xsl:value-of select="NOMBRE"/></a></td>
+											<td><xsl:value-of select="DESCRIPCION"/></td>
+											<td><xsl:value-of select="PRECIO"/></td>
+											<td>
+												<span>
+													<xsl:value-of select="PRECIO * $IVA + PRECIO"/>
+												</span>
+											</td>
+											<td><xsl:value-of select="DESCUENTO" />%
+											</td>
+											<td>
+												<xsl:value-of select="DESCUENTO * PRECIO div 100"/>€	
+											</td>
+											<td><xsl:value-of select="EXISTENCIAS"/> uds</td>
 										</tr>
 									</xsl:for-each>
 								</tbody>
 								<tfoot>
 									<tr>
-										<td colspan="4">Todos los productos de insuperable calidad</td>
+										<td colspan="4">Todos los productos de insuperable calidad
+											
+										</td>
+										
 									</tr>
 								</tfoot>
 							</table>

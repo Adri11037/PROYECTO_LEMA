@@ -28,7 +28,7 @@
 					<div class="inner">
 						<header>
 							<h1>LA SERIE</h1>
-
+							
 							<div>
 								<xsl:for-each select="//PARRAFO">
 									<p>
@@ -45,19 +45,23 @@
 								<p class="texto">
 									<xsl:value-of select="TRAMA"/>
 								</p>
-
+								
 								<p>
 									<xsl:value-of select="DVD"/>
 								</p>
 								
 								<p>
-									Precio: <xsl:value-of select="PRECIO"/>
+									Precio: <xsl:value-of select="PRECIO"/>€
 								</p>
-
+								
 								<p>
-									Descuento: <xsl:value-of select="DESCUENTO"/>€
+									Descuento: - <xsl:value-of select="DESCUENTO"/>%
+									
+										= <xsl:value-of select="DESCUENTO * PRECIO div 100"/>€
+									
+									
 								</p>
-
+								
 								<p>
 									Stock: <xsl:value-of select="EXISTENCIAS"/> uds.
 								</p>

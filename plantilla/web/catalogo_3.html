@@ -19,7 +19,7 @@
 
         function displayResult() {
             xml = loadXMLDoc("../trans/winx.xml");
-            xsl = loadXMLDoc("xsl/catalogo2.xsl");
+            xsl = loadXMLDoc("xsl/catalogo3.xsl");
             // code for IE
             if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
                 ex = xml.transformNode(xsl);
@@ -43,7 +43,7 @@
 <body onload="displayResult()">
     <header id="header">
         <div class="inner">
-            <a href="#" class="logo"><img src="../images/logo.png" alt="logo"/></a>
+            <a href="#" class="logo"><img src="../images/logo.png" alt="logo" /></a>
             <nav id="nav">
                 <a href="../index.html">Página Principal</a>
                 <a href="catalogo_1.html">Coleccion</a>

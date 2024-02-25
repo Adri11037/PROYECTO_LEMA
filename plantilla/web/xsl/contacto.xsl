@@ -13,7 +13,7 @@
              Base de la plantilla creada por TEMPLATED y adapatada para la realización del
              Proyecto dirigido a la validación, formateo y transformación de documentos XML
         -->
-         <xsl:variable name="logo" select="//LOGO"/>
+        <xsl:variable name="logo" select="//LOGO"/>
         <html lang="es">
             
             <head>
@@ -56,17 +56,17 @@
                 <footer id="footer">
                     <div class="inner">
                         <div class="copyright">
-							©Ariannet	- 	Andoni 	- 	Adriana 2024
-							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-							</ul>
-							WinxClub™
-						</div>
+                            ©Ariannet	- 	Andoni 	- 	Adriana 2024
+                            <ul class="icons">
+                                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                                <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+                                <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                                <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+                            </ul>
+                            WinxClub™
+                        </div>
                     </div>
                 </footer>
                 

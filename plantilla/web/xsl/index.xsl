@@ -28,6 +28,7 @@
                         <nav id="nav">
                             <a href="#">Página Principal</a>
                             <a href="web/catalogo_1.html">Coleccion</a>
+                            <a href="web/catalogo_1.html">Criaturas</a>
                             <a href="web/catalogo_2.html">La serie</a>
                             <a href="web/contacto.html">Contacto</a>
                         </nav>
